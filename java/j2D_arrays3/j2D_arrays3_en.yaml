@@ -1,0 +1,93 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_j2d_arrays3_en
+source: Tester.java
+title: Problem 7
+description: What is the output?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:ArrayDataType
+  - expert:AddExpression
+  - expert:ArrayCreationStatement
+  - expert:ArrayElement
+  - expert:ArrayVariable
+  - expert:Constant
+  - expert:ConstantInitializationStatement
+  - expert:ConstructorCall
+  - expert:ExpressionStatement
+  - expert:ForStatement
+  - expert:IntDataType
+  - expert:java.lang.System.out.print
+  - expert:java.lang.System.out.println
+  - expert:LessExpression
+  - expert:MultiDimensionalArrayDataType
+  - expert:NestedStatement
+  - expert:PostIncrementExpression
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StatementBlock
+  - expert:SubtractExpression
+  - expert:Two-dimensional Arrays
+  - expert:VariableInitializationStatement
+  - expert:AddExpression~ForStatement
+  - expert:ArrayCreationStatement~Constant
+  - expert:ForStatement~LessExpression
+  - expert:Constant~ForStatement
+  - expert:ForStatement~PostIncrementExpression
+  - expert:ForStatement~NestedStatement
+  - expert:ArrayElement~ForStatement
+  - expert:ForStatement~java.lang.System.out.print
+  - expert:ArrayElement~java.lang.System.out.print
+  - unspecified:Two-dimensional Arrays
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ForStatement
+  - java_ontology:java.lang.System.out.print
+  - java_ontology:VoidDataType
+  - java_ontology:ConstructorCall
+  - java_ontology:LessExpression
+  - java_ontology:SubtractExpression
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StatementBlock
+  - java_ontology:FormalMethodParameter
+  - java_ontology:ArrayElement
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:AddExpression
+  - java_ontology:NestedForLoops
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:ArrayCreationStatement
+  - java_ontology:SimpleVariable
+  - java_ontology:ConstantInitializationStatement
+  - java_ontology:IntDataType
+  - java_ontology:ArrayVariable
+  - java_ontology:NestedStatement
+  - java_ontology:Constant
+  - java_ontology:MultiDimensionalArrayDataType
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    234
+    123
+  status: pass
+elements: []

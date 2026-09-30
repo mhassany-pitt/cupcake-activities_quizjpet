@@ -1,0 +1,1 @@
+print("precision:{0:3.1f}".format(1.73))

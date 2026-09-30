@@ -1,0 +1,42 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_java_pretest1_en
+source: Tester.java
+title: Question 1
+description: What is the final value of result ?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:IntDataType
+  - expert:DivideExpression
+  - expert:ModulusExpression
+  - expert:AddExpression
+  - expert:MultiplyExpression
+  - expert:SimpleAssignmentExpression
+  - expert:DivideExpression~IntDataType
+  - java_ontology:AddExpression
+  - java_ontology:DivideExpression
+  - java_ontology:IntDataType
+  - java_ontology:ModulusExpression
+  - java_ontology:MultiplyExpression
+  - java_ontology:SimpleAssignmentExpression
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    -2
+  status: pass
+elements: []

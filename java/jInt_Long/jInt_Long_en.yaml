@@ -1,0 +1,53 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jint_long_en
+source: Tester.java
+title: Using double and Math class
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:VariableInitializationStatement
+  - expert:Basic Data Types
+  - expert:DoubleDataType
+  - expert:ExplicitTypeCasting
+  - expert:IntDataType
+  - expert:java.lang.Math.round
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - unspecified:Basic Data Types
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:SimpleVariable
+  - java_ontology:ClassDefinition
+  - java_ontology:ActualMethodParameter
+  - java_ontology:DoubleDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:IntDataType
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:ExplicitTypeCasting
+  - java_ontology:VoidDataType
+  - java_ontology:MethodDefinition
+  - java_ontology:java.lang.Math.round
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    4
+  status: pass
+elements: []

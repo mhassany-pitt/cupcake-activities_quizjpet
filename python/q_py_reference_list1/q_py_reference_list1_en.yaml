@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_reference_list1_en
+source: main_en.py
+title: Reference List 1
+description: What is the output?
+authors:
+- first: Michelle
+  last: Wang
+  email: michelle.wang@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:List
+  - acos:Return
+  - acos:FunctionDef
+  - acos:Constant
+  - acos:Assign
+  - acos:Call
+  - acos:Attribute
+  - acos:arg
+  - unspecified:arg
+  - unspecified:Constant
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:Return
+  - unspecified:FunctionDef
+  - unspecified:Attribute
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    [1, 2, 3, 3]
+    [1, 2, 3, 3]
+  status: pass
+elements: []

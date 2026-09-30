@@ -1,0 +1,53 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jmathfuc2_en
+source: Tester.java
+title: Using Math class 2
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:Arithmetic Expressions
+  - expert:ExplicitTypeCasting
+  - expert:ExpressionStatement
+  - expert:IntDataType
+  - expert:java.lang.Math.pow
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:VariableInitializationStatement
+  - unspecified:Arithmetic Expressions
+  - java_ontology:java.lang.Math.pow
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:SimpleVariable
+  - java_ontology:ExpressionStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ActualMethodParameter
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:IntDataType
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:ExplicitTypeCasting
+  - java_ontology:VoidDataType
+  - java_ontology:MethodDefinition
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    49
+  status: pass
+elements: []

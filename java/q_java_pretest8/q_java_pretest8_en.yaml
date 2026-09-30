@@ -1,0 +1,47 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_java_pretest8_en
+source: Tester.java
+title: Question 10
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:ExtendsSpecification
+  - expert:MethodInheritance
+  - expert:SuperclassConstructorCall
+  - expert:java.lang.System.out.println
+  - expert:ObjectMethodInvocation
+  - expert:ObjectCreationStatement
+  - expert:java.lang.System.out.println~ObjectMethodInvocation
+  - java_ontology:ExtendsSpecification
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:MethodInheritance
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:SuperclassConstructorCall
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    Blue
+    33.0
+    30.0
+  status: pass
+elements: []
+includes:
+- Rectangle.java
+- ColoredRectangle.java

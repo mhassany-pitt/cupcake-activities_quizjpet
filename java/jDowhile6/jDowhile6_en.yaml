@@ -1,0 +1,65 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jdowhile6_en
+source: Tester.java
+title: Problem 2
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:AddAssignmentExpression
+  - expert:Do-While-Loop
+  - expert:DoStatement
+  - expert:ExpressionStatement
+  - expert:IntDataType
+  - expert:LessExpression
+  - expert:PostIncrementExpression
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StatementBlock
+  - expert:SubtractExpression
+  - expert:VariableInitializationStatement
+  - expert:AddAssignmentExpression~DoStatement
+  - expert:DoStatement~PostIncrementExpression
+  - expert:DoStatement~LessExpression
+  - expert:AddAssignmentExpression~SubtractExpression
+  - unspecified:Do-While-Loop
+  - java_ontology:VoidDataType
+  - java_ontology:LessExpression
+  - java_ontology:SubtractExpression
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StatementBlock
+  - java_ontology:FormalMethodParameter
+  - java_ontology:AddAssignmentExpression
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:DoStatement
+  - java_ontology:IntDataType
+  - java_ontology:WhileStatement
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    10
+  status: pass
+elements: []

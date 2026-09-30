@@ -1,0 +1,61 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_sequential_search_en
+source: main_en.py
+title: Sequential search
+description: What is the output?
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Add
+  - acos:FunctionDef
+  - acos:Assign
+  - acos:arg
+  - acos:Not
+  - acos:USub
+  - acos:If
+  - acos:Return
+  - acos:Lt
+  - acos:List
+  - acos:Eq
+  - acos:Call
+  - acos:Index
+  - acos:While
+  - acos:And
+  - acos:Constant
+  - unspecified:arg
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Constant
+  - unspecified:List
+  - unspecified:Not
+  - unspecified:Return
+  - unspecified:Eq
+  - unspecified:FunctionDef
+  - unspecified:Lt
+  - unspecified:USub
+  - unspecified:Add
+  - unspecified:Index
+  - unspecified:While
+  - unspecified:If
+  - unspecified:And
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    -1
+  status: pass
+elements: []

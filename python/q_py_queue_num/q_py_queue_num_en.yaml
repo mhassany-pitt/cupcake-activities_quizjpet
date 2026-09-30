@@ -1,0 +1,75 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_queue_num_en
+source: main.py
+title: Queue Num
+description: What is the output?
+authors:
+- first: Michelle
+  last: Wang
+  email: michelle.wang@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Assign
+  - acos:For
+  - acos:List
+  - acos:LtE
+  - acos:Return
+  - acos:Add
+  - acos:Eq
+  - acos:Sub
+  - acos:ClassDef
+  - acos:Mod
+  - acos:NotEq
+  - acos:If
+  - acos:Attribute
+  - acos:Raise
+  - acos:Index
+  - acos:FunctionDef
+  - acos:arg
+  - acos:Or
+  - acos:Lt
+  - acos:AugAssign
+  - acos:Constant
+  - acos:Call
+  - unspecified:For
+  - unspecified:Call
+  - unspecified:Return
+  - unspecified:Index
+  - unspecified:LtE
+  - unspecified:Or
+  - unspecified:Raise
+  - unspecified:Attribute
+  - unspecified:Lt
+  - unspecified:AugAssign
+  - unspecified:Mod
+  - unspecified:arg
+  - unspecified:Constant
+  - unspecified:Add
+  - unspecified:If
+  - unspecified:Sub
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:ClassDef
+  - unspecified:Eq
+  - unspecified:FunctionDef
+  - unspecified:NotEq
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    2
+    False
+    ]15]
+  status: pass
+elements: []

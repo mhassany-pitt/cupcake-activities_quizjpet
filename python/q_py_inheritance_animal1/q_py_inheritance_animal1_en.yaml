@@ -1,0 +1,74 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_inheritance_animal1_en
+source: main.py
+title: animal inheritance
+description: What is the output?
+authors:
+- first: PAWS
+  last: Admin
+  email: paws@sis.pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_expert:DefiningObjectMethod
+  - alice_expert:DefiningClass
+  - alice_expert:Multiplication
+  - alice_expert:AssigningValueVariable
+  - alice_expert:CreatingObject
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:Printing
+  - alice_expert:DefiningSimpleFunction
+  - alice_expert:CallingObjectMethod
+  - alice_expert:NestedFunctionCall
+  - alice_expert:CallingSimpleFunction
+  - parser:Return
+  - parser:Int
+  - parser:Attribute
+  - parser:ClassDef
+  - parser:Call
+  - parser:Mult
+  - parser:Str
+  - parser:arg
+  - parser:Assign
+  - parser:FunctionDef
+  - unspecified:arg
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Return
+  - unspecified:ClassDef
+  - unspecified:FunctionDef
+  - unspecified:Int
+  - unspecified:Attribute
+  - unspecified:Mult
+  - unspecified:Str
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:CallingObjectMethod
+  - rafaella_alice:CallingSimpleFunction
+  - rafaella_alice:CreatingObject
+  - rafaella_alice:DefiningClass
+  - rafaella_alice:DefiningObjectMethod
+  - rafaella_alice:DefiningSimpleFunction
+  - rafaella_alice:Multiplication
+  - rafaella_alice:NestedFunctionCall
+  - rafaella_alice:Printing
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    How are you doing?
+    20
+    wow-wow
+    10
+  status: pass
+elements: []

@@ -1,0 +1,56 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_java_pretest5_en
+source: Tester.java
+title: Question 7
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:IntDataType
+  - expert:ForStatement
+  - expert:AddAssignmentExpression
+  - expert:LessExpression
+  - expert:MultiplyExpression
+  - expert:java.lang.System.out.println
+  - expert:ArrayCreationStatement
+  - expert:ArrayDataType
+  - expert:ArrayElement
+  - expert:ArrayVariable
+  - expert:PostIncrementExpression
+  - expert:ArrayElement~ForStatement
+  - expert:ArrayElement~java.lang.System.out.println
+  - expert:ForStatement~MultiplyExpression
+  - expert:ForStatement~PostIncrementExpression
+  - expert:ForStatement~LessExpression
+  - java_ontology:AddAssignmentExpression
+  - java_ontology:ArrayCreationStatement
+  - java_ontology:ArrayDataType
+  - java_ontology:ArrayElement
+  - java_ontology:ArrayVariable
+  - java_ontology:ForStatement
+  - java_ontology:IntDataType
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:LessExpression
+  - java_ontology:MultiplyExpression
+  - java_ontology:PostIncrementExpression
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    5
+  status: pass
+elements: []

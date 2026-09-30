@@ -1,0 +1,68 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_dict_access2_es
+source: main_es.py
+title: q_py_dict_access2_es
+description: What is the output?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_expert:FindingLength
+  - alice_expert:AccessingDictionary
+  - alice_expert:Addition
+  - alice_expert:AssigningValueVariable
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:Printing
+  - alice_expert:CreatingDictionary
+  - alice_expert:AddingItemToDictionary
+  - alice_expert:IndexingDictionary
+  - alice_expert:ChangingValueDictionaryElement
+  - alice_expert:Subtraction
+  - parser:Index
+  - parser:Sub
+  - parser:Int
+  - parser:Add
+  - parser:Dict
+  - parser:Str
+  - parser:Call
+  - parser:Assign
+  - unspecified:Sub
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Int
+  - unspecified:Dict
+  - unspecified:Add
+  - unspecified:Index
+  - unspecified:Str
+  - rafaella_alice:AccessingDictionary
+  - rafaella_alice:AddingItemToDictionary
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:ChangingValueDictionaryElement
+  - rafaella_alice:CreatingDictionary
+  - rafaella_alice:FindingLength
+  - rafaella_alice:IndexingDictionary
+  - rafaella_alice:Printing
+  - rafaella_alice:Subtraction
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    101
+    3
+  status: pass
+elements: []

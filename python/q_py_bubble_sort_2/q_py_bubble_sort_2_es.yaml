@@ -1,0 +1,56 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_bubble_sort_2_es
+source: main_es.py
+title: Ordenamiento de burbuja 2
+description: What is the output?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:List
+  - acos:USub
+  - acos:Assign
+  - acos:Return
+  - acos:Add
+  - acos:Index
+  - acos:Gt
+  - acos:Call
+  - acos:FunctionDef
+  - acos:If
+  - acos:For
+  - acos:Sub
+  - acos:arg
+  - unspecified:Gt
+  - unspecified:arg
+  - unspecified:Sub
+  - unspecified:For
+  - unspecified:Constant
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:Return
+  - unspecified:FunctionDef
+  - unspecified:USub
+  - unspecified:Add
+  - unspecified:If
+  - unspecified:Index
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    [6, 4, 2, 1, -1, -13]
+  status: pass
+elements: []

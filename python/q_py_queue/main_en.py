@@ -1,0 +1,11 @@
+from queue import Queue
+q=Queue()
+print(q.is_empty())
+q.enqueue(31)
+print(q.is_empty())
+q.enqueue(42)
+q.enqueue(14)
+print(q.size())
+item=q.dequeue()
+print(item)
+print(q.size())

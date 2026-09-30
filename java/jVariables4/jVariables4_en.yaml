@@ -1,0 +1,52 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jvariables4_en
+source: Tester.java
+title: int Variables 4
+description: What is the output?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:DivideExpression
+  - expert:IntDataType
+  - expert:java.lang.System.out.print
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:SubtractExpression
+  - expert:VariableInitializationStatement
+  - expert:Variables
+  - unspecified:Variables
+  - java_ontology:DivideExpression
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:SimpleVariable
+  - java_ontology:ClassDefinition
+  - java_ontology:ActualMethodParameter
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:java.lang.System.out.print
+  - java_ontology:IntDataType
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:VoidDataType
+  - java_ontology:MethodDefinition
+  - java_ontology:SubtractExpression
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: '4'
+  status: pass
+elements: []

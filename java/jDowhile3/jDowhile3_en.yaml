@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jdowhile3_en
+source: Tester.java
+title: Loop Do-While 3
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:AddAssignmentExpression
+  - expert:Do-While-Loop
+  - expert:DoStatement
+  - expert:GreaterExpression
+  - expert:IntDataType
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StatementBlock
+  - expert:SubtractExpression
+  - expert:VariableInitializationStatement
+  - expert:AddAssignmentExpression~DoStatement
+  - expert:DoStatement~GreaterExpression
+  - expert:GreaterExpression~SubtractExpression
+  - unspecified:Do-While-Loop
+  - java_ontology:GreaterExpression
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:SimpleVariable
+  - java_ontology:ClassDefinition
+  - java_ontology:WhileStatement
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:DoStatement
+  - java_ontology:StatementBlock
+  - java_ontology:IntDataType
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:AddAssignmentExpression
+  - java_ontology:VoidDataType
+  - java_ontology:MethodDefinition
+  - java_ontology:SubtractExpression
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    12
+  status: pass
+elements: []

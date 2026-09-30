@@ -1,0 +1,63 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jearthquake_en
+source: Tester.java
+title: Earthquake
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:DoubleDataType
+  - expert:SimpleVariable
+  - expert:IfElseIfStatement
+  - expert:StringDataType
+  - expert:IfElseStatement
+  - expert:StringLiteral
+  - expert:java.lang.System.out.println
+  - expert:StringVariable
+  - expert:LessEqualExpression
+  - expert:LessExpression
+  - expert:SimpleAssignmentExpression
+  - expert:IfStatement~LessEqualExpression
+  - expert:IfStatement
+  - expert:java.lang.System.out.println~StringDataType
+  - expert:IfStatement~LessExpression
+  - java_ontology:ActualMethodParameter
+  - java_ontology:IfElseStatement
+  - java_ontology:VoidDataType
+  - java_ontology:LessExpression
+  - java_ontology:DoubleDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringLiteral
+  - java_ontology:FormalMethodParameter
+  - java_ontology:MethodDefinition
+  - java_ontology:LessEqualExpression
+  - java_ontology:IfElseIfStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:StringVariable
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:StringDataType
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    Many buildings destroyed
+  status: pass
+elements: []

@@ -1,0 +1,110 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jwrapper_class4_en
+source: Tester.java
+title: Wrapper Classes 4
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:ActualMethodParameter
+  - expert:AddAssignmentExpression
+  - expert:AddExpression
+  - expert:AutoBoxing
+  - expert:ClassDefinition
+  - expert:ConstructorCall
+  - expert:ConstructorDefinition
+  - expert:DoubleDataType
+  - expert:ExpressionStatement
+  - expert:ForEachStatement
+  - expert:FormalMethodParameter
+  - expert:ForStatement
+  - expert:GenericObjectCreationStatement
+  - expert:ImportStatement
+  - expert:InstanceField
+  - expert:InstanceFieldDefinitionStatement
+  - expert:IntDataType
+  - expert:java.lang.Double
+  - expert:java.lang.Integer
+  - expert:java.util.ArrayList
+  - expert:java.util.ArrayList.add
+  - expert:java.util.ArrayList.size
+  - expert:LessExpression
+  - expert:MethodDefinition
+  - expert:ObjectMethodInvocation
+  - expert:ObjectVariable
+  - expert:PostIncrementExpression
+  - expert:PrivateAccessSpecifier
+  - expert:PublicAccessSpecifier
+  - expert:ReturnStatement
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:SubtractExpression
+  - expert:VariableInitializationStatement
+  - expert:VoidDataType
+  - expert:Wrapper Classes
+  - unspecified:Wrapper Classes
+  - java_ontology:WrapperClassConstructorCall
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ForStatement
+  - java_ontology:java.util.ArrayList.add
+  - java_ontology:java.util.ArrayList
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:PublicAccessSpecifier
+  - java_ontology:VoidDataType
+  - java_ontology:ObjectVariable
+  - java_ontology:ConstructorCall
+  - java_ontology:LessExpression
+  - java_ontology:SubtractExpression
+  - java_ontology:ForEachStatement
+  - java_ontology:AutoBoxing
+  - java_ontology:PrivateAccessSpecifier
+  - java_ontology:DoubleDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:FormalMethodParameter
+  - java_ontology:InstanceFieldDefinitionStatement
+  - java_ontology:java.lang.Double
+  - java_ontology:java.util.ArrayList.size
+  - java_ontology:AddAssignmentExpression
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:GenericObjectCreationStatement
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:WrapperClassCreationStatement
+  - java_ontology:ConstructorDefinition
+  - java_ontology:ImportStatement
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:AddExpression
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:java.lang.Integer
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:IntDataType
+  - java_ontology:ReturnStatement
+  - java_ontology:java.util.ArrayList.get
+  - java_ontology:InstanceField
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    1144.4
+  status: pass
+elements: []
+includes:
+- BankAccount.java

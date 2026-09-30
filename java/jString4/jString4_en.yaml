@@ -1,0 +1,62 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jstring4_en
+source: Tester.java
+title: Strings 4
+description: What is the output?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:CharDataType~java.lang.System.out.print
+  - expert:ActualMethodParameter
+  - expert:CharDataType
+  - expert:java.lang.String.charAt
+  - expert:java.lang.System.out.print
+  - expert:ObjectMethodInvocation
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StringDataType
+  - expert:StringInitializationStatement
+  - expert:StringLiteral
+  - expert:Strings
+  - expert:StringVariable
+  - expert:VariableInitializationStatement
+  - unspecified:Strings
+  - java_ontology:ActualMethodParameter
+  - java_ontology:java.lang.System.out.print
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:VoidDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringLiteral
+  - java_ontology:FormalMethodParameter
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:StringVariable
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:StringInitializationStatement
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:java.lang.String.charAt
+  - java_ontology:StringDataType
+  - java_ontology:CharDataType
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: S
+  status: pass
+elements: []

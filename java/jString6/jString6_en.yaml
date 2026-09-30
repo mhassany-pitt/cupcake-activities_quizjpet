@@ -1,0 +1,50 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jstring6_en
+source: Tester.java
+title: Strings 6
+description: What is the output?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:java.lang.System.out.print~StringDataType
+  - expert:java.lang.String.substring~StringLiteral
+  - expert:java.lang.String.substring
+  - expert:java.lang.System.out.print
+  - expert:StringDataType
+  - expert:StringLiteral
+  - expert:StringLiteralMethodInvocation
+  - expert:Strings
+  - unspecified:Strings
+  - java_ontology:java.lang.String.substring
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ClassDefinition
+  - java_ontology:StringDataType
+  - java_ontology:StringLiteral
+  - java_ontology:java.lang.System.out.print
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:VoidDataType
+  - java_ontology:StringLiteralMethodInvocation
+  - java_ontology:MethodDefinition
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: ''
+  status: pass
+elements: []

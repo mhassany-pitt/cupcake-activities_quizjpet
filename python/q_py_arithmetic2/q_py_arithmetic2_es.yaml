@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_arithmetic2_es
+source: main_es.py
+title: q_py_arithmetic2_es
+description: What is the final value of result ?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_expert:Power
+  - alice_expert:Addition
+  - alice_expert:AssigningValueVariable
+  - alice_expert:Multiplication
+  - parser:Int
+  - parser:Pow
+  - parser:Add
+  - parser:Assign
+  - parser:Mult
+  - unspecified:Int
+  - unspecified:Mult
+  - unspecified:Assign
+  - unspecified:Add
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:Multiplication
+  - rafaella_alice:Power
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    24
+  status: pass
+elements: []

@@ -1,0 +1,41 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_java_pretest4_2_en
+source: Tester.java
+title: Question 5
+description: What is the final value of result ?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:IntDataType
+  - expert:DoStatement
+  - expert:PostIncrementExpression
+  - expert:AddExpression
+  - expert:LessExpression
+  - expert:DoStatement~PostIncrementExpression
+  - expert:DoStatement~LessExpression
+  - java_ontology:AddExpression
+  - java_ontology:DoStatement
+  - java_ontology:IntDataType
+  - java_ontology:LessExpression
+  - java_ontology:PostIncrementExpression
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    15
+  status: pass
+elements: []

@@ -1,0 +1,42 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_java_pretest10_en
+source: Tester.java
+title: Question 11
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:IntDataType
+  - expert:AddExpression
+  - expert:IfStatement
+  - expert:NotEqualExpression
+  - expert:EqualExpression
+  - expert:java.lang.System.out.println
+  - expert:IfStatement~NotEqualExpression
+  - expert:EqualExpression~IfStatement
+  - java_ontology:AddExpression
+  - java_ontology:EqualExpression
+  - java_ontology:IfStatement
+  - java_ontology:IntDataType
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:NotEqualExpression
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: " Not equal \n"
+  status: pass
+elements: []

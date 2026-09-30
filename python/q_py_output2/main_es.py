@@ -1,0 +1,1 @@
+print("varios precision:{0:6.2f},{0:6.3f}".format(1.574))

@@ -1,0 +1,68 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jifelse5_en
+source: Tester.java
+title: if-else 5
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:IfStatement
+  - expert:IfStatement~ModulusExpression
+  - expert:NestedStatement
+  - expert:GreaterExpression~ModulusExpression
+  - expert:GreaterExpression~IfStatement
+  - expert:IfStatement~NestedStatement
+  - expert:Decisions
+  - expert:ExpressionStatement
+  - expert:GreaterExpression
+  - expert:IfElseIfStatement
+  - expert:IfElseStatement
+  - expert:IntDataType
+  - expert:ModulusExpression
+  - expert:MultiplyExpression
+  - expert:PostDecrementExpression
+  - expert:PostIncrementExpression
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StatementBlock
+  - unspecified:Decisions
+  - java_ontology:MultiplyExpression
+  - java_ontology:IfElseStatement
+  - java_ontology:VoidDataType
+  - java_ontology:PostDecrementExpression
+  - java_ontology:GreaterExpression
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StatementBlock
+  - java_ontology:FormalMethodParameter
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:IfElseIfStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:ModulusExpression
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:IntDataType
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    -1
+  status: pass
+elements: []

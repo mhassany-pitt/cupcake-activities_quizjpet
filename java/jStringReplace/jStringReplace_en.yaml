@@ -1,0 +1,67 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jstringreplace_en
+source: Tester.java
+title: String (replace)
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:java.lang.String.charAt
+  - expert:StringDataType
+  - expert:java.lang.String.length
+  - expert:StringInitializationStatement
+  - expert:java.lang.String.replace
+  - expert:StringLiteral
+  - expert:java.lang.System.out.println
+  - expert:StringVariable
+  - expert:SubtractExpression
+  - expert:ObjectMethodInvocation
+  - expert:SimpleAssignmentExpression
+  - expert:StringAddition
+  - expert:java.lang.String.charAt~StringAddition
+  - expert:ImplicitTypeCasting
+  - expert:java.lang.String.charAt~java.lang.String.length
+  - expert:java.lang.System.out.println~StringDataType
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:VoidDataType
+  - java_ontology:SubtractExpression
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringLiteral
+  - java_ontology:FormalMethodParameter
+  - java_ontology:MethodDefinition
+  - java_ontology:ClassDefinition
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:StringVariable
+  - java_ontology:java.lang.String.length
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:StringInitializationStatement
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:StringAddition
+  - java_ontology:java.lang.String.charAt
+  - java_ontology:StringDataType
+  - java_ontology:java.lang.String.replace
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    Hello WorlA!
+    Hello World!
+    Hello WorlA!
+  status: pass
+elements: []

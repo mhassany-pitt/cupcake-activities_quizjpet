@@ -1,0 +1,54 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_data_types_module_es
+source: main.py
+title: q_py_data_types_module_es
+description: What is the output?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:alias
+  - acos:Call
+  - acos:Attribute
+  - alice_llm:IntegerLiteral
+  - alice_llm:Importing
+  - alice_llm:CallingSimpleFunction
+  - alice_llm:CallingObjectMethod
+  - alice_llm:LogicalExpression
+  - alice_llm:ComparisonExpression
+  - alice_llm_mod:Printing
+  - unspecified:Constant
+  - unspecified:Call
+  - unspecified:Is
+  - unspecified:Attribute
+  - unspecified:Import
+  - unspecified:alias
+  - jordan_alice:ComparisonExpression
+  - jordan_alice:IntegerLiteral
+  - jordan_alice:LogicalExpression
+  - rafaella_alice:CallingObjectMethod
+  - rafaella_alice:CallingSimpleFunction
+  - rafaella_alice:Importing
+  - rafaella_alice:Printing
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    <class 'module'>
+    False
+    5.0
+  status: pass
+elements: []

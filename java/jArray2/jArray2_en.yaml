@@ -1,0 +1,82 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jarray2_en
+source: Tester.java
+title: Problem 6
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:ArrayDataType
+  - expert:ForStatement~LessExpression
+  - expert:ArrayLength~ForStatement
+  - expert:ForStatement~IfStatement
+  - expert:ArrayElement~ForStatement
+  - expert:AddExpression~ForStatement
+  - expert:ForStatement~PostIncrementExpression
+  - expert:ArrayElement~IfStatement
+  - expert:GreaterExpression~IfStatement
+  - expert:AddExpression~ArrayElement
+  - expert:AddExpression
+  - expert:ArrayElement
+  - expert:ArrayInitializationStatement
+  - expert:ArrayInitializer
+  - expert:ArrayLength
+  - expert:Arrays
+  - expert:ArrayVariable
+  - expert:ExpressionStatement
+  - expert:ForStatement
+  - expert:GreaterExpression
+  - expert:IfStatement
+  - expert:IntDataType
+  - expert:LessExpression
+  - expert:NestedStatement
+  - expert:PostIncrementExpression
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:VariableInitializationStatement
+  - unspecified:Arrays
+  - java_ontology:ForStatement
+  - java_ontology:IfStatement
+  - java_ontology:VoidDataType
+  - java_ontology:LessExpression
+  - java_ontology:GreaterExpression
+  - java_ontology:ArrayInitializationStatement
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:FormalMethodParameter
+  - java_ontology:ArrayElement
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:ArrayInitializer
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:AddExpression
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:ArrayLength
+  - java_ontology:IntDataType
+  - java_ontology:ArrayVariable
+  - java_ontology:NestedStatement
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    31
+  status: pass
+elements: []

@@ -1,0 +1,70 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_fun_car2_en
+source: main_en.py
+title: two simple functions
+description: What is the output?
+authors:
+- first: PAWS
+  last: Admin
+  email: paws@sis.pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_expert:IfElseChecking
+  - alice_expert:CallingSimpleFunction
+  - alice_expert:Addition
+  - alice_expert:AssigningValueVariable
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:BooleanEvaluating
+  - alice_expert:Printing
+  - alice_expert:DefiningSimpleFunction
+  - alice_expert:FindMinimum
+  - alice_expert:Subtraction
+  - parser:Return
+  - parser:Sub
+  - parser:Int
+  - parser:Lt
+  - parser:Add
+  - parser:Call
+  - parser:arg
+  - parser:Assign
+  - parser:FunctionDef
+  - parser:If
+  - unspecified:arg
+  - unspecified:Sub
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Return
+  - unspecified:FunctionDef
+  - unspecified:Int
+  - unspecified:Lt
+  - unspecified:Add
+  - unspecified:If
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:BooleanEvaluating
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:CallingSimpleFunction
+  - rafaella_alice:DefiningSimpleFunction
+  - rafaella_alice:FindMinimum
+  - rafaella_alice:IfElseChecking
+  - rafaella_alice:Printing
+  - rafaella_alice:Subtraction
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    46
+    26
+  status: pass
+elements: []

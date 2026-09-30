@@ -1,0 +1,54 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jobjects5_en
+source: Tester.java
+title: Objects 5 (String)
+description: What is the output?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:java.lang.String.replace
+  - expert:java.lang.System.out.print
+  - expert:ObjectMethodInvocation
+  - expert:Objects
+  - expert:SimpleAssignmentExpression
+  - expert:StringDataType
+  - expert:StringInitializationStatement
+  - expert:StringLiteral
+  - expert:StringVariable
+  - unspecified:Objects
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ClassDefinition
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringDataType
+  - java_ontology:java.lang.System.out.print
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:StringLiteral
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StringVariable
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:VoidDataType
+  - java_ontology:StringInitializationStatement
+  - java_ontology:MethodDefinition
+  - java_ontology:java.lang.String.replace
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: 6 is my LuckyNumber!
+  status: pass
+elements: []

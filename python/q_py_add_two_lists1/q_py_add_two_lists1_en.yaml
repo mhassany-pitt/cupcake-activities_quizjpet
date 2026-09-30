@@ -1,0 +1,69 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_add_two_lists1_en
+source: main_en.py
+title: combine two lists
+description: What is the output?
+authors:
+- first: PAWS
+  last: Admin
+  email: paws@sis.pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_expert:SingleForLoopIteration
+  - alice_expert:FindingLength
+  - alice_expert:AddingListElementWithAppend
+  - alice_expert:Addition
+  - alice_expert:AssigningValueVariable
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:Printing
+  - alice_expert:CreatingList
+  - alice_expert:Concatenation
+  - alice_expert:IndexingList
+  - alice_expert:ForLoopWithListIndexing
+  - alice_expert:NestedFunctionCall
+  - parser:Index
+  - parser:For
+  - parser:Int
+  - parser:Attribute
+  - parser:List
+  - parser:Add
+  - parser:Call
+  - parser:Assign
+  - unspecified:For
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:Int
+  - unspecified:Attribute
+  - unspecified:Add
+  - unspecified:Index
+  - rafaella_alice:AddingListElementWithAppend
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:Concatenation
+  - rafaella_alice:CreatingList
+  - rafaella_alice:FindingLength
+  - rafaella_alice:ForLoopWithListIndexing
+  - rafaella_alice:IndexingList
+  - rafaella_alice:NestedFunctionCall
+  - rafaella_alice:Printing
+  - rafaella_alice:SingleForLoopIteration
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    [1, 2, 3, 4, 7, 8, 9, 10]
+  status: pass
+elements: []

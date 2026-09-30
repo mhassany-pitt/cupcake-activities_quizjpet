@@ -1,0 +1,149 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jinterfaces1_en
+source: Tester.java
+title: Interfaces 1
+description: What is the output?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:AbstractMethodDefinition
+  - expert:AddAssignmentExpression
+  - expert:BooleanDataType
+  - expert:ClassConstantInitializationStatement
+  - expert:ClassDefinition
+  - expert:ClassField
+  - expert:ConstructorCall
+  - expert:ConstructorDefinition
+  - expert:DoubleDataType
+  - expert:ExpressionStatement
+  - expert:False
+  - expert:FinalModifier
+  - expert:FormalMethodParameter
+  - expert:GreaterExpression
+  - expert:IfStatement
+  - expert:ImplementsSpecification
+  - expert:InstanceField
+  - expert:InstanceFieldDefinitionStatement
+  - expert:IntDataType
+  - expert:InterfaceBasedPolymorphism
+  - expert:InterfaceClassConversion
+  - expert:InterfaceDefinition
+  - expert:Interfaces
+  - expert:java.lang.String.equalsIgnoreCase
+  - expert:java.lang.System.out.println
+  - expert:LessExpression
+  - expert:MethodDefinition
+  - expert:MethodImplementation
+  - expert:NotEqualExpression
+  - expert:NotExpression
+  - expert:ObjectMethodInvocation
+  - expert:ObjectVariable
+  - expert:PolymorphicObjectCreationStatement
+  - expert:PrivateAccessSpecifier
+  - expert:PublicAccessSpecifier
+  - expert:ReturnStatement
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StaticModifier
+  - expert:StringDataType
+  - expert:StringInitializationStatement
+  - expert:StringLiteral
+  - expert:StringVariable
+  - expert:SubtractExpression
+  - expert:ThisReference
+  - expert:True
+  - expert:VariableInitializationStatement
+  - expert:VoidDataType
+  - expert:ClassField~Constant
+  - expert:java.lang.System.out.println~ObjectMethodInvocation
+  - expert:InterfaceClassConversion~ObjectMethodInvocation
+  - expert:DoubleDataType~java.lang.System.out.println
+  - expert:InterfaceBasedPolymorphism~java.lang.System.out.println
+  - expert:IfStatement~LessExpression
+  - expert:ClassField~InstanceField
+  - expert:IfStatement~java.lang.String.equalsIgnoreCase
+  - expert:GreaterExpression~IfStatement
+  - expert:IfStatement~NotExpression
+  - expert:AddAssignmentExpression~SubtractExpression
+  - unspecified:Interfaces
+  - java_ontology:ClassConstantInitializationStatement
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:IfStatement
+  - java_ontology:AbstractMethodDefinition
+  - java_ontology:PublicAccessSpecifier
+  - java_ontology:True
+  - java_ontology:ObjectVariable
+  - java_ontology:VoidDataType
+  - java_ontology:StaticModifier
+  - java_ontology:InterfaceClassConversion
+  - java_ontology:ConstructorCall
+  - java_ontology:LessExpression
+  - java_ontology:SubtractExpression
+  - java_ontology:GreaterExpression
+  - java_ontology:PrivateAccessSpecifier
+  - java_ontology:DoubleDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringLiteral
+  - java_ontology:FormalMethodParameter
+  - java_ontology:InstanceFieldDefinitionStatement
+  - java_ontology:FinalModifier
+  - java_ontology:AddAssignmentExpression
+  - java_ontology:InterfaceDefinition
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:BooleanDataType
+  - java_ontology:ImplementsSpecification
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:PolymorphicObjectCreationStatement
+  - java_ontology:NotEqualExpression
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:ConstructorDefinition
+  - java_ontology:StringVariable
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:ExplicitTypeCasting
+  - java_ontology:ClassField
+  - java_ontology:StringInitializationStatement
+  - java_ontology:InterfaceBasedPolymorphism
+  - java_ontology:False
+  - java_ontology:java.lang.String.equalsIgnoreCase
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:ThisReference
+  - java_ontology:StringDataType
+  - java_ontology:IntDataType
+  - java_ontology:ReturnStatement
+  - java_ontology:MethodImplementation
+  - java_ontology:NotExpression
+  - java_ontology:InstanceField
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    4.0
+    0
+    Honda
+    0
+  status: pass
+elements: []
+includes:
+- Car.java
+- Computer.java
+- Mechanism.java

@@ -1,0 +1,73 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_infix_to_postfix2_en
+source: main.py
+title: Postfix 2
+description: What is the output?
+authors:
+- first: Michelle
+  last: Wang
+  email: michelle.wang@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Eq
+  - acos:FunctionDef
+  - acos:If
+  - acos:Attribute
+  - acos:For
+  - acos:ClassDef
+  - acos:NotEq
+  - acos:Constant
+  - acos:arg
+  - acos:List
+  - acos:Dict
+  - acos:And
+  - acos:Sub
+  - acos:GtE
+  - acos:Assign
+  - acos:In
+  - acos:While
+  - acos:Call
+  - acos:Not
+  - acos:Index
+  - acos:Or
+  - acos:Return
+  - unspecified:For
+  - unspecified:Call
+  - unspecified:Return
+  - unspecified:GtE
+  - unspecified:Index
+  - unspecified:And
+  - unspecified:Or
+  - unspecified:Attribute
+  - unspecified:arg
+  - unspecified:Constant
+  - unspecified:Not
+  - unspecified:Dict
+  - unspecified:While
+  - unspecified:If
+  - unspecified:In
+  - unspecified:Sub
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:ClassDef
+  - unspecified:Eq
+  - unspecified:FunctionDef
+  - unspecified:NotEq
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    A B * C 1 - / E * F 1 - +
+  status: pass
+elements: []

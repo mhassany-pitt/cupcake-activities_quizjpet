@@ -1,0 +1,54 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_nested_for_while_en
+source: main_en.py
+title: Nested For and While Loop
+description: What is the output?
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Call
+  - acos:While
+  - acos:Attribute
+  - acos:Add
+  - acos:Lt
+  - acos:Assign
+  - acos:NestedForLoop
+  - acos:Constant
+  - acos:For
+  - acos:Index
+  - acos:List
+  - unspecified:For
+  - unspecified:Constant
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:NestedForLoop
+  - unspecified:Attribute
+  - unspecified:Lt
+  - unspecified:Add
+  - unspecified:While
+  - unspecified:Index
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    ****
+    ****
+    ****
+    ****
+  status: pass
+elements: []

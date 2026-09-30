@@ -1,0 +1,49 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jfornested_minsub_en
+source: Tester.java
+title: subproblem 324
+description: What is the output?
+authors:
+- first: PAWS
+  last: Admin
+  email: paws@sis.pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ClassDefinition
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:ForStatement
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:java.lang.System.out.print
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:FormalMethodParameter
+  - java_ontology:IntDataType
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:NestedForLoops
+  - java_ontology:VoidDataType
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:LessExpression
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    0
+    10
+    201
+    3012
+    40123
+  status: pass
+elements: []

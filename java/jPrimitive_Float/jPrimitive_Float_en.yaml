@@ -1,0 +1,50 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jprimitive_float_en
+source: Tester.java
+title: Using float
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:AddExpression
+  - expert:Basic Data Types
+  - expert:ExplicitTypeCasting
+  - expert:FloatDataType
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:VariableInitializationStatement
+  - unspecified:Basic Data Types
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:SimpleVariable
+  - java_ontology:ClassDefinition
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:FormalMethodParameter
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:AddExpression
+  - java_ontology:ExplicitTypeCasting
+  - java_ontology:VoidDataType
+  - java_ontology:FloatDataType
+  - java_ontology:MethodDefinition
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    10.57
+  status: pass
+elements: []

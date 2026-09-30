@@ -1,0 +1,83 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jclasscashregister_en
+source: Tester.java
+title: Class (Cash Register)
+description: What is the final value of result ?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:AddExpression
+  - expert:SimpleVariable
+  - expert:ClassConstantInitializationStatement
+  - expert:MultiplyExpression
+  - expert:StaticFieldSpecifier
+  - expert:ObjectCreationStatement
+  - expert:ClassField
+  - expert:ObjectMethodInvocation
+  - expert:SubtractExpression
+  - expert:ConstructorCall
+  - expert:PrivateFieldSpecifier
+  - expert:ConstructorDefinition
+  - expert:DoubleDataType
+  - expert:PublicConstructorSpecifier
+  - expert:FinalFieldSpecifier
+  - expert:PublicFieldSpecifier
+  - expert:InstanceField
+  - expert:ReturnStatement
+  - expert:IntDataType
+  - expert:SimpleAssignmentExpression
+  - expert:Constant
+  - expert:ClassField~Constant
+  - expert:ClassField~InstanceField
+  - expert:AddExpression~MultiplyExpression
+  - java_ontology:ClassConstantInitializationStatement
+  - java_ontology:MultiplyExpression
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:VoidDataType
+  - java_ontology:ConstructorCall
+  - java_ontology:SubtractExpression
+  - java_ontology:DoubleDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:FormalMethodParameter
+  - java_ontology:PrivateFieldSpecifier
+  - java_ontology:MethodDefinition
+  - java_ontology:ClassDefinition
+  - java_ontology:PublicConstructorSpecifier
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:ConstructorDefinition
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:AddExpression
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:ClassField
+  - java_ontology:StaticFieldSpecifier
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:FinalFieldSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:IntDataType
+  - java_ontology:ReturnStatement
+  - java_ontology:PublicFieldSpecifier
+  - java_ontology:InstanceField
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    12.25
+  status: pass
+elements: []
+includes:
+- CashRegister.java

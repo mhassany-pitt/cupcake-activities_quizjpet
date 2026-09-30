@@ -1,0 +1,72 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_list_except1_es
+source: main_es.py
+title: q_py_list_except1_es
+description: What is the output?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_expert:HandlingGeneralError
+  - alice_expert:SingleForLoopIteration
+  - alice_expert:Addition
+  - alice_expert:AssigningValueVariable
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:ChangingValueVariable
+  - alice_expert:Printing
+  - alice_expert:CreatingTuple
+  - alice_expert:IndexingTuple
+  - alice_expert:ForLoopWithListIndexing
+  - alice_expert:ForLoopWith
+  - parser:Index
+  - parser:For
+  - parser:Tuple
+  - parser:Int
+  - parser:AugAssign
+  - parser:Assign
+  - parser:ExceptHandler
+  - parser:Add
+  - parser:Call
+  - parser:TryExcept
+  - unspecified:ExceptHandler
+  - unspecified:For
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Int
+  - unspecified:Add
+  - unspecified:Tuple
+  - unspecified:AugAssign
+  - unspecified:Index
+  - unspecified:TryExcept
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:ChangingValueVariable
+  - rafaella_alice:CreatingTuple
+  - rafaella_alice:ForLoopWith
+  - rafaella_alice:ForLoopWithListIndexing
+  - rafaella_alice:HandlingGeneralError
+  - rafaella_alice:IndexingTuple
+  - rafaella_alice:Printing
+  - rafaella_alice:SingleForLoopIteration
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    15
+    8
+  status: pass
+elements: []

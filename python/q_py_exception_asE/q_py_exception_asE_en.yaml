@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_exception_ase_en
+source: main_en.py
+title: Exceptions asE
+description: What is the output?
+authors:
+- first: Michelle
+  last: Wang
+  email: michelle.wang@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Try
+  - acos:ExceptHandler
+  - acos:Eq
+  - acos:FunctionDef
+  - acos:Attribute
+  - acos:arg
+  - acos:If
+  - acos:Call
+  - acos:Break
+  - acos:Add
+  - acos:For
+  - acos:AugAssign
+  - acos:List
+  - acos:Constant
+  - acos:Assign
+  - unspecified:arg
+  - unspecified:ExceptHandler
+  - unspecified:For
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Constant
+  - unspecified:List
+  - unspecified:Break
+  - unspecified:Eq
+  - unspecified:FunctionDef
+  - unspecified:Try
+  - unspecified:Attribute
+  - unspecified:Add
+  - unspecified:AugAssign
+  - unspecified:If
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    <class 'TypeError'>
+    [7, 13, 10, 8, 4, 5]
+  status: pass
+elements: []

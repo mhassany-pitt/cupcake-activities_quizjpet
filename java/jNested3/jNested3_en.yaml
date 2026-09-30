@@ -1,0 +1,97 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jnested3_en
+source: Tester.java
+title: Nested Loops 3
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:ActualMethodParameter
+  - expert:AddAssignmentExpression
+  - expert:AddExpression
+  - expert:ClassDefinition
+  - expert:ConstructorCall
+  - expert:ConstructorDefinition
+  - expert:DoubleDataType
+  - expert:ExpressionStatement
+  - expert:FormalMethodParameter
+  - expert:ForStatement
+  - expert:InstanceField
+  - expert:InstanceFieldDefinitionStatement
+  - expert:IntDataType
+  - expert:LessExpression
+  - expert:MethodDefinition
+  - expert:MultiplyExpression
+  - expert:NestedStatement
+  - expert:ObjectCreationStatement
+  - expert:ObjectMethodInvocation
+  - expert:ObjectVariable
+  - expert:PostIncrementExpression
+  - expert:PrivateAccessSpecifier
+  - expert:PublicAccessSpecifier
+  - expert:ReturnStatement
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StatementBlock
+  - expert:SubtractExpression
+  - expert:VariableInitializationStatement
+  - expert:VoidDataType
+  - unspecified:Nested Loops
+  - java_ontology:MultiplyExpression
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ForStatement
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:PublicAccessSpecifier
+  - java_ontology:VoidDataType
+  - java_ontology:ObjectVariable
+  - java_ontology:ConstructorCall
+  - java_ontology:LessExpression
+  - java_ontology:SubtractExpression
+  - java_ontology:PrivateAccessSpecifier
+  - java_ontology:DoubleDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StatementBlock
+  - java_ontology:FormalMethodParameter
+  - java_ontology:InstanceFieldDefinitionStatement
+  - java_ontology:AddAssignmentExpression
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:PrivateFieldSpecifier
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:PublicConstructorSpecifier
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:ConstructorDefinition
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:AddExpression
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:NestedForLoops
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:IntDataType
+  - java_ontology:ReturnStatement
+  - java_ontology:InstanceField
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    3600.0
+  status: pass
+elements: []
+includes:
+- BankAccount.java

@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_interest_if_elif1_en
+source: main_en.py
+title: "if-elif\uFEFF (interest)"
+description: What is the output?
+authors:
+- first: PAWS
+  last: Admin
+  email: paws@sis.pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - parser:Int
+  - parser:Add
+  - parser:Lt
+  - parser:Call
+  - parser:Div
+  - parser:Assign
+  - parser:Mult
+  - parser:If
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Int
+  - unspecified:Div
+  - unspecified:Lt
+  - unspecified:Add
+  - unspecified:Mult
+  - unspecified:If
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    1470.0
+    8470.0
+  status: pass
+elements: []

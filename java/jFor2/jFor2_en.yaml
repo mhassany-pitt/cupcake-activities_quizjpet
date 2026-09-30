@@ -1,0 +1,61 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jfor2_en
+source: Tester.java
+title: Loop For 2
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:AddExpression
+  - expert:ExpressionStatement
+  - expert:For-Loop
+  - expert:ForStatement
+  - expert:IntDataType
+  - expert:LessExpression
+  - expert:PostIncrementExpression
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StatementBlock
+  - expert:VariableInitializationStatement
+  - expert:ForStatement~PostIncrementExpression
+  - expert:ForStatement~LessExpression
+  - expert:AddExpression~ForStatement
+  - unspecified:For-Loop
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:SimpleVariable
+  - java_ontology:ExpressionStatement
+  - java_ontology:ForStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StatementBlock
+  - java_ontology:IntDataType
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:AddExpression
+  - java_ontology:VoidDataType
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:LessExpression
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    0
+  status: pass
+elements: []

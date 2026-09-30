@@ -1,0 +1,70 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jwhile4_en
+source: Tester.java
+title: Problem 1
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:EqualExpression
+  - expert:ExpressionStatement
+  - expert:IfStatement
+  - expert:IntDataType
+  - expert:LessExpression
+  - expert:ModulusExpression
+  - expert:NestedStatement
+  - expert:PostIncrementExpression
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StatementBlock
+  - expert:VariableInitializationStatement
+  - expert:While-Loop
+  - expert:WhileStatement
+  - expert:IfStatement~ModulusExpression
+  - expert:LessExpression~WhileStatement
+  - expert:PostIncrementExpression~WhileStatement
+  - expert:IfStatement~WhileStatement
+  - expert:EqualExpression~IfStatement
+  - expert:EqualExpression~ModulusExpression
+  - unspecified:While-Loop
+  - java_ontology:IfStatement
+  - java_ontology:VoidDataType
+  - java_ontology:LessExpression
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StatementBlock
+  - java_ontology:FormalMethodParameter
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:ModulusExpression
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:EqualExpression
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:IntDataType
+  - java_ontology:NestedStatement
+  - java_ontology:WhileStatement
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    3
+  status: pass
+elements: []

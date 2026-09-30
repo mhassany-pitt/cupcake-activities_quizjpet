@@ -1,0 +1,53 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_account_logic1_en
+source: main_en.py
+title: account management
+description: What is the final value of result ?
+authors:
+- first: PAWS
+  last: Admin
+  email: paws@sis.pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_expert:BooleanEvaluating
+  - alice_expert:Addition
+  - alice_expert:AssigningValueVariable
+  - alice_expert:Subtraction
+  - alice_expert:ChangingValueVariable
+  - parser:Gt
+  - parser:Sub
+  - parser:Int
+  - parser:Or
+  - parser:Add
+  - parser:Assign
+  - parser:GtE
+  - unspecified:Gt
+  - unspecified:Sub
+  - unspecified:Assign
+  - unspecified:GtE
+  - unspecified:Or
+  - unspecified:Int
+  - unspecified:Add
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:BooleanEvaluating
+  - rafaella_alice:ChangingValueVariable
+  - rafaella_alice:Subtraction
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    True
+  status: pass
+elements: []

@@ -1,0 +1,48 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_2d_arrays1_es
+source: main_es.py
+title: q_py_2d_arrays1_es
+description: What is the final value of result ?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:List
+  - acos:Assign
+  - acos:Index
+  - acos:Add
+  - alice_expert:Create2DArray
+  - alice_expert:Addition
+  - alice_expert:Indexing2DArray
+  - alice_expert:AssigningValueVariable
+  - alice_expert:IndexingList
+  - unspecified:Constant
+  - unspecified:List
+  - unspecified:Assign
+  - unspecified:Add
+  - unspecified:Index
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:Create2DArray
+  - rafaella_alice:Indexing2DArray
+  - rafaella_alice:IndexingList
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    30
+  status: pass
+elements: []

@@ -1,0 +1,71 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_java_recursion3_en
+source: Tester.java
+title: q_java_recursion3
+description: What is the final value of result ?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - webex:ActualMethodParameter
+  - webex:IfStatement
+  - webex:ArrayDataType
+  - webex:VoidDataType
+  - webex:PrivateMethodSpecifier
+  - webex:LessExpression
+  - webex:SubtractExpression
+  - webex:ArrayInitializationStatement
+  - webex:SimpleAssignmentExpression
+  - webex:FormalMethodParameter
+  - webex:ArrayElement
+  - webex:MethodDefinition
+  - webex:ClassDefinition
+  - webex:StaticMethodSpecifier
+  - webex:ArrayInitializer
+  - webex:PublicClassSpecifier
+  - webex:AddExpression
+  - webex:PublicMethodSpecifier
+  - webex:ArrayLength
+  - webex:IntDataType
+  - webex:ArrayVariable
+  - java_ontology:ActualMethodParameter
+  - java_ontology:IfStatement
+  - java_ontology:ArrayDataType
+  - java_ontology:VoidDataType
+  - java_ontology:PrivateMethodSpecifier
+  - java_ontology:LessExpression
+  - java_ontology:SubtractExpression
+  - java_ontology:ArrayInitializationStatement
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:FormalMethodParameter
+  - java_ontology:ArrayElement
+  - java_ontology:MethodDefinition
+  - java_ontology:ClassDefinition
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:ArrayInitializer
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:AddExpression
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:ArrayLength
+  - java_ontology:IntDataType
+  - java_ontology:ArrayVariable
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    0
+  status: pass
+elements: []

@@ -1,0 +1,57 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_bubble_sort_2_en
+source: main_en.py
+title: Bubble sort 2
+description: What is the output?
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:List
+  - acos:USub
+  - acos:Assign
+  - acos:Return
+  - acos:Add
+  - acos:Index
+  - acos:Gt
+  - acos:Call
+  - acos:FunctionDef
+  - acos:If
+  - acos:Constant
+  - acos:For
+  - acos:Sub
+  - acos:arg
+  - unspecified:Gt
+  - unspecified:arg
+  - unspecified:Sub
+  - unspecified:For
+  - unspecified:Constant
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:Return
+  - unspecified:FunctionDef
+  - unspecified:USub
+  - unspecified:Add
+  - unspecified:If
+  - unspecified:Index
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    [6, 6, 3, 2, 1, -9]
+  status: pass
+elements: []

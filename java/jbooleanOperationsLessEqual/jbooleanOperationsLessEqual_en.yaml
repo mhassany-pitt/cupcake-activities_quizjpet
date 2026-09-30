@@ -1,0 +1,47 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jbooleanoperationslessequal_en
+source: Tester.java
+title: Boolean Operations (Less equal)
+description: What is the final value of result ?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:IfStatement
+  - expert:IntDataType
+  - expert:LessEqualExpression
+  - expert:PostIncrementExpression
+  - expert:SimpleAssignmentExpression
+  - expert:IfStatement~LessEqualExpression
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:ClassDefinition
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:IntDataType
+  - java_ontology:IfStatement
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:VoidDataType
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:LessEqualExpression
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    7
+  status: pass
+elements: []

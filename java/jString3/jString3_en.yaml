@@ -1,0 +1,55 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jstring3_en
+source: Tester.java
+title: Strings 3
+description: What is the output?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:java.lang.System.out.print~StringAddition
+  - expert:java.lang.System.out.print~StringDataType
+  - expert:java.lang.System.out.print
+  - expert:SimpleAssignmentExpression
+  - expert:StringAddition
+  - expert:StringDataType
+  - expert:StringInitializationStatement
+  - expert:StringLiteral
+  - expert:Strings
+  - expert:StringVariable
+  - unspecified:Strings
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:ActualMethodParameter
+  - java_ontology:StringAddition
+  - java_ontology:ClassDefinition
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringDataType
+  - java_ontology:java.lang.System.out.print
+  - java_ontology:StringLiteral
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:StringVariable
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:AddExpression
+  - java_ontology:VoidDataType
+  - java_ontology:StringInitializationStatement
+  - java_ontology:MethodDefinition
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: Hello3
+  status: pass
+elements: []

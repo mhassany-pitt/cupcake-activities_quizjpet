@@ -1,0 +1,43 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_inheritance_person2_es
+source: main_es.py
+title: q_py_inheritance_person2_es
+description: What is the output?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:ClassDef
+  - acos:Attribute
+  - acos:FunctionDef
+  - acos:Call
+  - acos:arg
+  - acos:Assign
+  - unspecified:arg
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Constant
+  - unspecified:ClassDef
+  - unspecified:FunctionDef
+  - unspecified:Attribute
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    Adam
+    44
+  status: pass
+elements: []

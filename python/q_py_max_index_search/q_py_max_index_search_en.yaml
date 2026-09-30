@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_max_index_search_en
+source: main_en.py
+title: Max index search
+description: What is the final value of result ?
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Assign
+  - acos:For
+  - acos:Constant
+  - acos:List
+  - acos:Call
+  - acos:Index
+  - acos:Gt
+  - acos:If
+  - unspecified:Gt
+  - unspecified:For
+  - unspecified:Constant
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:If
+  - unspecified:Index
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    1
+  status: pass
+elements: []

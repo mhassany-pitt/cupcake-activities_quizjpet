@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_dict_square_en
+source: main_en.py
+title: Dictionary square
+description: What is the output?
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Call
+  - acos:Dict
+  - acos:FunctionDef
+  - acos:Index
+  - acos:Mult
+  - acos:arg
+  - acos:Assign
+  - acos:AugAssign
+  - unspecified:arg
+  - unspecified:Constant
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:FunctionDef
+  - unspecified:Dict
+  - unspecified:Mult
+  - unspecified:AugAssign
+  - unspecified:Index
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    {'n': 25}
+  status: pass
+elements: []

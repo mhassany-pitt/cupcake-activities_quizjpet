@@ -1,0 +1,69 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_2d_arrays2_es
+source: main_es.py
+title: q_py_2d_arrays2_es
+description: What is the final value of result ?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Add
+  - acos:Assign
+  - acos:Sub
+  - acos:List
+  - acos:For
+  - acos:Index
+  - acos:Call
+  - acos:Mult
+  - alice_expert:FindingLength
+  - alice_expert:AssigningValueVariable
+  - alice_expert:NestedForLoopIteration
+  - alice_expert:Create2DArray
+  - alice_expert:Addition
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:ForLoopWithListIndexing
+  - alice_expert:ChangingValueListElement
+  - alice_expert:ChangingValue2DArrayElement
+  - alice_expert:Multiplication
+  - alice_expert:Subtraction
+  - unspecified:Sub
+  - unspecified:For
+  - unspecified:Constant
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:ListComp
+  - unspecified:Add
+  - unspecified:Mult
+  - unspecified:Index
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:ChangingValue2DArrayElement
+  - rafaella_alice:ChangingValueListElement
+  - rafaella_alice:Create2DArray
+  - rafaella_alice:FindingLength
+  - rafaella_alice:ForLoopWithListIndexing
+  - rafaella_alice:Multiplication
+  - rafaella_alice:NestedForLoopIteration
+  - rafaella_alice:Subtraction
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    2
+  status: pass
+elements: []

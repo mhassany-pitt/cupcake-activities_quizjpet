@@ -1,0 +1,50 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_file2_en
+source: main_en.py
+title: File processing 2
+description: What is the output?
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Constant
+  - acos:AugAssign
+  - acos:Attribute
+  - acos:Div
+  - acos:For
+  - acos:Add
+  - acos:Call
+  - acos:Assign
+  - acos:Index
+  - unspecified:For
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Constant
+  - unspecified:Attribute
+  - unspecified:Div
+  - unspecified:Add
+  - unspecified:AugAssign
+  - unspecified:Index
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    Linda 97.0
+    John 92.0
+  status: pass
+elements: []
+includes:
+- studentscores.txt

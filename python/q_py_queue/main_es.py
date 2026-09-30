@@ -1,0 +1,11 @@
+from cola import Cola
+q=Cola()
+print(q.vacia())
+q.enqueue(31)
+print(q.vacia())
+q.enqueue(42)
+q.enqueue(14)
+print(q.tamanio())
+item=q.desencolar()
+print(item)
+print(q.tamanio())

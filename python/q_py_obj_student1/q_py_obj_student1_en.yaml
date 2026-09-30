@@ -1,0 +1,110 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_obj_student1_en
+source: main.py
+title: student objects
+description: What is the output?
+authors:
+- first: PAWS
+  last: Admin
+  email: paws@sis.pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_expert:DefiningObjectMethod
+  - alice_expert:BooleanEvaluating
+  - alice_expert:AddingListElementWithAppend
+  - alice_expert:IfCheckingInForLoop
+  - alice_expert:Division
+  - alice_expert:Addition
+  - alice_expert:CallingSimpleFunction
+  - alice_expert:AssigningValueVariable
+  - alice_expert:CreatingObject
+  - alice_expert:DefiningSimpleFunction
+  - alice_expert:TransformingToIntType
+  - alice_expert:ForLoopWithListIndexing
+  - alice_expert:Printing
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:FindingLength
+  - alice_expert:IndexingList
+  - alice_expert:TransformingToFloatType
+  - alice_expert:Subtraction
+  - alice_expert:DefiningClass
+  - alice_expert:CreatingList
+  - alice_expert:CallingObjectMethod
+  - alice_expert:SingleForLoopIteration
+  - parser:Assign
+  - parser:FunctionDef
+  - parser:If
+  - parser:Index
+  - parser:Gt
+  - parser:Return
+  - parser:Sub
+  - parser:For
+  - parser:Int
+  - parser:Attribute
+  - parser:Float
+  - parser:List
+  - parser:ClassDef
+  - parser:Add
+  - parser:Call
+  - parser:Str
+  - parser:arg
+  - parser:Div
+  - unspecified:Gt
+  - unspecified:arg
+  - unspecified:Sub
+  - unspecified:For
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:Return
+  - unspecified:ClassDef
+  - unspecified:Float
+  - unspecified:FunctionDef
+  - unspecified:Int
+  - unspecified:Attribute
+  - unspecified:Div
+  - unspecified:Add
+  - unspecified:If
+  - unspecified:Index
+  - unspecified:Str
+  - rafaella_alice:AddingListElementWithAppend
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:BooleanEvaluating
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:CallingObjectMethod
+  - rafaella_alice:CallingSimpleFunction
+  - rafaella_alice:CreatingList
+  - rafaella_alice:CreatingObject
+  - rafaella_alice:DefiningClass
+  - rafaella_alice:DefiningObjectMethod
+  - rafaella_alice:DefiningSimpleFunction
+  - rafaella_alice:Division
+  - rafaella_alice:FindingLength
+  - rafaella_alice:ForLoopWithListIndexing
+  - rafaella_alice:IfCheckingInForLoop
+  - rafaella_alice:IndexingList
+  - rafaella_alice:Printing
+  - rafaella_alice:SingleForLoopIteration
+  - rafaella_alice:Subtraction
+  - rafaella_alice:TransformingToFloatType
+  - rafaella_alice:TransformingToIntType
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    Sofia
+    75
+  status: pass
+elements: []

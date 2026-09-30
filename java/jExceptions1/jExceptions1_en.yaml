@@ -1,0 +1,126 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jexceptions1_en
+source: Tester.java
+title: Exceptions 1
+description: What is the output?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:AddAssignmentExpression
+  - expert:AddExpression
+  - expert:ClassConstantInitializationStatement
+  - expert:ClassDefinition
+  - expert:ClassField
+  - expert:ConstructorCall
+  - expert:ConstructorDefinition
+  - expert:DivideExpression
+  - expert:EqualExpression
+  - expert:ExceptionClass
+  - expert:Exceptions
+  - expert:ExpressionStatement
+  - expert:ExtendsSpecification
+  - expert:FinalModifier
+  - expert:GreaterExpression
+  - expert:IfStatement
+  - expert:InstanceField
+  - expert:InstanceFieldDefinitionStatement
+  - expert:IntDataType
+  - expert:InterfaceDefinition
+  - expert:java.lang.Math.pow
+  - expert:java.lang.System.out.println
+  - expert:LessExpression
+  - expert:MethodDefinition
+  - expert:MultiplyExpression
+  - expert:ObjectCreationStatement
+  - expert:ObjectMethodInvocation
+  - expert:ObjectVariable
+  - expert:PrivateAccessSpecifier
+  - expert:PublicAccessSpecifier
+  - expert:ReturnStatement
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StaticModifier
+  - expert:StringAddition
+  - expert:StringDataType
+  - expert:StringInitializationStatement
+  - expert:StringLiteral
+  - expert:StringVariable
+  - expert:SubtractExpression
+  - expert:SuperclassConstructorCall
+  - expert:ThrowStatement
+  - expert:TryCatchStatement
+  - expert:VariableInitializationStatement
+  - unspecified:Exceptions
+  - java_ontology:ClassConstantInitializationStatement
+  - java_ontology:DivideExpression
+  - java_ontology:MultiplyExpression
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:IfStatement
+  - java_ontology:PublicAccessSpecifier
+  - java_ontology:VoidDataType
+  - java_ontology:ObjectVariable
+  - java_ontology:StaticModifier
+  - java_ontology:ConstructorCall
+  - java_ontology:LessExpression
+  - java_ontology:SubtractExpression
+  - java_ontology:GreaterExpression
+  - java_ontology:PrivateAccessSpecifier
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringLiteral
+  - java_ontology:InstanceFieldDefinitionStatement
+  - java_ontology:FormalMethodParameter
+  - java_ontology:FinalModifier
+  - java_ontology:AddAssignmentExpression
+  - java_ontology:InterfaceDefinition
+  - java_ontology:MethodDefinition
+  - java_ontology:TryCatchStatement
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:ExceptionClass
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:SuperclassConstructorCall
+  - java_ontology:ConstructorDefinition
+  - java_ontology:EqualExpression
+  - java_ontology:StringVariable
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:AddExpression
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:ClassField
+  - java_ontology:StringInitializationStatement
+  - java_ontology:java.lang.Math.pow
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:StringAddition
+  - java_ontology:ThrowStatement
+  - java_ontology:StringDataType
+  - java_ontology:IntDataType
+  - java_ontology:ReturnStatement
+  - java_ontology:ExtendsSpecification
+  - java_ontology:InstanceField
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    Second argument is negative: -6
+  status: pass
+elements: []
+includes:
+- SimpleMath.java
+- NegativeArgumentException.java

@@ -1,0 +1,1 @@
+print("%s received %5.1f in %s %d" %("Brian",72, "CMPUT", 175))

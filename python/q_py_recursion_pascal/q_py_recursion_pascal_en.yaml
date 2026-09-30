@@ -1,0 +1,59 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_recursion_pascal_en
+source: main_en.py
+title: Recursing Pascal
+description: What is the output?
+authors:
+- first: Michelle
+  last: Wang
+  email: michelle.wang@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Eq
+  - acos:Sub
+  - acos:For
+  - acos:Add
+  - acos:Attribute
+  - acos:Index
+  - acos:Return
+  - acos:AugAssign
+  - acos:FunctionDef
+  - acos:arg
+  - acos:Constant
+  - acos:List
+  - acos:If
+  - acos:Assign
+  - acos:Call
+  - unspecified:arg
+  - unspecified:Sub
+  - unspecified:For
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Constant
+  - unspecified:List
+  - unspecified:Return
+  - unspecified:Eq
+  - unspecified:FunctionDef
+  - unspecified:Attribute
+  - unspecified:Add
+  - unspecified:AugAssign
+  - unspecified:If
+  - unspecified:Index
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    [1, 6, 15, 20, 15, 6, 1]
+  status: pass
+elements: []

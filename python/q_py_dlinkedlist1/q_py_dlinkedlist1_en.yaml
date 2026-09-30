@@ -1,0 +1,59 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_dlinkedlist1_en
+source: main.py
+title: Double linked list 1
+description: What is the output?
+authors:
+- first: Michelle
+  last: Wang
+  email: michelle.wang@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Constant
+  - acos:Assign
+  - acos:IsNot
+  - acos:arg
+  - acos:NotEq
+  - acos:Add
+  - acos:AugAssign
+  - acos:Is
+  - acos:FunctionDef
+  - acos:Call
+  - acos:Return
+  - acos:Attribute
+  - acos:While
+  - acos:ClassDef
+  - acos:If
+  - unspecified:arg
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Constant
+  - unspecified:Is
+  - unspecified:Return
+  - unspecified:ClassDef
+  - unspecified:FunctionDef
+  - unspecified:Attribute
+  - unspecified:While
+  - unspecified:Add
+  - unspecified:AugAssign
+  - unspecified:If
+  - unspecified:NotEq
+  - unspecified:IsNot
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    [New Balance, Saucony, Salomon, 42]
+  status: pass
+elements: []

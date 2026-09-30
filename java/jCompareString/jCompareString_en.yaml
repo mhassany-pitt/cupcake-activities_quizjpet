@@ -1,0 +1,57 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jcomparestring_en
+source: Tester.java
+title: Comparing Strings
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:StringVariable
+  - expert:SimpleAssignmentExpression
+  - expert:java.lang.System.out.println
+  - expert:StringDataType
+  - expert:ObjectMethodInvocation
+  - expert:StringInitializationStatement
+  - expert:java.lang.String.equals
+  - expert:StringLiteral
+  - expert:java.lang.String.substring
+  - expert:BooleanDataType
+  - expert:BooleanDataType~java.lang.System.out.println
+  - java_ontology:java.lang.String.substring
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ClassDefinition
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringDataType
+  - java_ontology:StringLiteral
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:StringVariable
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:java.lang.String.equals
+  - java_ontology:VoidDataType
+  - java_ontology:StringInitializationStatement
+  - java_ontology:MethodDefinition
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    false
+  status: pass
+elements: []

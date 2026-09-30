@@ -1,0 +1,67 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jwrapper_class2_en
+source: Tester.java
+title: Wrapper Classes 2
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:AddExpression
+  - expert:AutoBoxing
+  - expert:ConstructorCall
+  - expert:DoubleDataType
+  - expert:ExplicitTypeCasting
+  - expert:IntDataType
+  - expert:java.lang.Double
+  - expert:java.lang.Integer
+  - expert:ObjectCreationStatement
+  - expert:ObjectVariable
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:VariableInitializationStatement
+  - expert:Wrapper Classes
+  - unspecified:Wrapper Classes
+  - java_ontology:WrapperClassConstructorCall
+  - java_ontology:ActualMethodParameter
+  - java_ontology:VoidDataType
+  - java_ontology:ObjectVariable
+  - java_ontology:ConstructorCall
+  - java_ontology:AutoBoxing
+  - java_ontology:DoubleDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:FormalMethodParameter
+  - java_ontology:java.lang.Double
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:WrapperClassCreationStatement
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:AddExpression
+  - java_ontology:ExplicitTypeCasting
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:java.lang.Integer
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:IntDataType
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    20
+  status: pass
+elements: []

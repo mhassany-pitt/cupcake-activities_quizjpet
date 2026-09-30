@@ -1,0 +1,59 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_queue_en
+source: main_en.py
+title: Queue implementation
+description: What is the output?
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:arg
+  - acos:Call
+  - acos:Return
+  - acos:Attribute
+  - acos:ImportFrom
+  - acos:Assign
+  - acos:Eq
+  - acos:Constant
+  - acos:ClassDef
+  - acos:Queue
+  - acos:List
+  - acos:alias
+  - unspecified:arg
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Constant
+  - unspecified:List
+  - unspecified:Return
+  - unspecified:ClassDef
+  - unspecified:Eq
+  - unspecified:Queue
+  - unspecified:Attribute
+  - unspecified:ImportFrom
+  - unspecified:alias
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    True
+    False
+    3
+    31
+    2
+  status: pass
+elements: []
+includes:
+- queue.py

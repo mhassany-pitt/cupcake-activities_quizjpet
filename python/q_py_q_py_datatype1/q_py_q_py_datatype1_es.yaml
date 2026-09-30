@@ -1,0 +1,52 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_q_py_datatype1_es
+source: main_es.py
+title: q_py_q_py_datatype1_es
+description: What is the final value of result ?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Call
+  - acos:Div
+  - acos:Assign
+  - alice_llm:LogicalExpression
+  - alice_llm:FloatLiteral
+  - alice_llm:ComparisonExpression
+  - alice_llm:int()
+  - alice_llm:IntegerLiteral
+  - alice_llm:Multiplication
+  - alice_llm:ChangingValueVariable
+  - alice_llm:CallingSimpleFunction
+  - alice_llm_mod:Division
+  - unspecified:Constant
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Is
+  - unspecified:Div
+  - jordan_alice:ComparisonExpression
+  - jordan_alice:FloatLiteral
+  - jordan_alice:IntegerLiteral
+  - rafaella_alice:CallingSimpleFunction
+  - rafaella_alice:ChangingValueVariable
+  - rafaella_alice:Division
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    False
+  status: pass
+elements: []

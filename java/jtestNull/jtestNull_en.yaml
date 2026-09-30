@@ -1,0 +1,65 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jtestnull_en
+source: Tester.java
+title: Test Null
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:StringDataType
+  - expert:IfStatement
+  - expert:StringInitializationStatement
+  - expert:IntDataType
+  - expert:StringLiteral
+  - expert:java.lang.System.out.println
+  - expert:StringVariable
+  - expert:LessExpression
+  - expert:null
+  - expert:SimpleAssignmentExpression
+  - expert:EqualExpression
+  - expert:BooleanDataType
+  - expert:BooleanDataType~java.lang.System.out.println
+  - expert:EqualExpression~StringDataType
+  - expert:EqualExpression~null
+  - expert:IfStatement~LessExpression
+  - java_ontology:ActualMethodParameter
+  - java_ontology:IfStatement
+  - java_ontology:VoidDataType
+  - java_ontology:LessExpression
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:null
+  - java_ontology:StringLiteral
+  - java_ontology:FormalMethodParameter
+  - java_ontology:MethodDefinition
+  - java_ontology:ClassDefinition
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:EqualExpression
+  - java_ontology:StringVariable
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:StringInitializationStatement
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:StringDataType
+  - java_ontology:IntDataType
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    false
+    true
+  status: pass
+elements: []

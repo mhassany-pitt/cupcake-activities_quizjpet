@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jnested2_en
+source: Tester.java
+title: Problem 4
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:AddAssignmentExpression
+  - expert:ExpressionStatement
+  - expert:ForStatement
+  - expert:IntDataType
+  - expert:java.lang.System.out.print
+  - expert:LessExpression
+  - expert:NestedStatement
+  - expert:PostIncrementExpression
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StatementBlock
+  - expert:VariableInitializationStatement
+  - expert:IntDataType~java.lang.System.out.print
+  - expert:ForStatement~NestedStatement
+  - expert:ForStatement~PostIncrementExpression
+  - expert:AddAssignmentExpression~ForStatement
+  - expert:java.lang.System.out.print~StringDataType
+  - unspecified:Nested Loops
+  - java_ontology:ForStatement
+  - java_ontology:java.lang.System.out.print
+  - java_ontology:VoidDataType
+  - java_ontology:LessExpression
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StatementBlock
+  - java_ontology:FormalMethodParameter
+  - java_ontology:AddAssignmentExpression
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:NestedForLoops
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:IntDataType
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    10
+  status: pass
+elements: []

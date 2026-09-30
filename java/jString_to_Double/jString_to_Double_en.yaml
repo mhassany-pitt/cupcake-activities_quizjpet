@@ -1,0 +1,57 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jstring_to_double_en
+source: Tester.java
+title: Converting String to double
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:Basic Data Types
+  - expert:DoubleDataType
+  - expert:java.lang.Double.parseDouble
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StringDataType
+  - expert:StringInitializationStatement
+  - expert:StringLiteral
+  - expert:StringVariable
+  - expert:VariableInitializationStatement
+  - unspecified:Basic Data Types
+  - java_ontology:java.lang.Double.parseDouble
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:SimpleVariable
+  - java_ontology:ClassDefinition
+  - java_ontology:ActualMethodParameter
+  - java_ontology:DoubleDataType
+  - java_ontology:StringDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringLiteral
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:FormalMethodParameter
+  - java_ontology:StringVariable
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:VoidDataType
+  - java_ontology:StringInitializationStatement
+  - java_ontology:MethodDefinition
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    53.0
+  status: pass
+elements: []

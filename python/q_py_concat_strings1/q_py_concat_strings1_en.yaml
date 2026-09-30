@@ -1,0 +1,63 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_concat_strings1_en
+source: main_en.py
+title: concatenate strings
+description: What is the output?
+authors:
+- first: PAWS
+  last: Admin
+  email: paws@sis.pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_expert:SingleWhileLoopIteration
+  - alice_expert:Addition
+  - alice_expert:AssigningValueVariable
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:CreatingString
+  - alice_expert:ChangingValueVariable
+  - alice_expert:Printing
+  - alice_expert:Concatenation
+  - alice_expert:WhileLoopWith
+  - alice_expert:BooleanEvaluating
+  - parser:Int
+  - parser:AugAssign
+  - parser:Add
+  - parser:Lt
+  - parser:While
+  - parser:Str
+  - parser:Assign
+  - unspecified:Assign
+  - unspecified:Int
+  - unspecified:While
+  - unspecified:Lt
+  - unspecified:Add
+  - unspecified:AugAssign
+  - unspecified:Str
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:BooleanEvaluating
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:ChangingValueVariable
+  - rafaella_alice:Concatenation
+  - rafaella_alice:CreatingString
+  - rafaella_alice:Printing
+  - rafaella_alice:SingleWhileLoopIteration
+  - rafaella_alice:WhileLoopWith
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    ha!ha!
+  status: pass
+elements: []

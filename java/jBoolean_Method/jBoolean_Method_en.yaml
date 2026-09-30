@@ -1,0 +1,80 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jboolean_method_en
+source: Tester.java
+title: Comparing Strings
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:ActualMethodParameter
+  - expert:Boolean Expressions
+  - expert:ConstructorCall
+  - expert:EqualExpression
+  - expert:ExpressionStatement
+  - expert:IfStatement
+  - expert:IntDataType
+  - expert:java.lang.String.equals
+  - expert:ObjectCreationStatement
+  - expert:ObjectEquality
+  - expert:PostDecrementExpression
+  - expert:PostIncrementExpression
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StringDataType
+  - expert:StringInitializationStatement
+  - expert:StringLiteral
+  - expert:StringVariable
+  - expert:VariableInitializationStatement
+  - expert:EqualExpression~StringDataType
+  - expert:EqualExpression~IfStatement
+  - expert:IfStatement~java.lang.String.equals
+  - unspecified:Boolean Expressions
+  - java_ontology:ActualMethodParameter
+  - java_ontology:StringCreationStatement
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:IfStatement
+  - java_ontology:VoidDataType
+  - java_ontology:ConstructorCall
+  - java_ontology:PostDecrementExpression
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringLiteral
+  - java_ontology:FormalMethodParameter
+  - java_ontology:ObjectEquality
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:EqualExpression
+  - java_ontology:StringVariable
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:StringInitializationStatement
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:StringConstructorCall
+  - java_ontology:StringDataType
+  - java_ontology:IntDataType
+  - java_ontology:java.lang.String.equals
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    7
+  status: pass
+elements: []

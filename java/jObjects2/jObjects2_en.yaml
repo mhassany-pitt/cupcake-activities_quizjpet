@@ -1,0 +1,64 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jobjects2_en
+source: Tester.java
+title: Objects 2 (Rectangle)
+description: What is the output?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:ActualMethodParameter
+  - expert:ConstructorCall
+  - expert:DoubleDataType
+  - expert:ImportStatement
+  - expert:java.lang.System.out.print
+  - expert:JavaStandardLibraryClass
+  - expert:MultiplyExpression
+  - expert:ObjectCreationStatement
+  - expert:ObjectMethodInvocation
+  - expert:Objects
+  - expert:ObjectVariable
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:VariableInitializationStatement
+  - expert:DoubleDataType~java.lang.System.out.print
+  - unspecified:Objects
+  - java_ontology:MultiplyExpression
+  - java_ontology:ActualMethodParameter
+  - java_ontology:java.lang.System.out.print
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:VoidDataType
+  - java_ontology:ObjectVariable
+  - java_ontology:ConstructorCall
+  - java_ontology:DoubleDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:FormalMethodParameter
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:ImportStatement
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:JavaStandardLibraryClass
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: '100.0'
+  status: pass
+elements: []

@@ -1,0 +1,60 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_tree_inorder_traverse_en
+source: main_en.py
+title: Tree inorder traversal
+description: What is the output?
+authors:
+- first: Kamil
+  last: Akhuseyinoglu
+  email: kamil@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Constant
+  - acos:alias
+  - acos:Attribute
+  - acos:FunctionDef
+  - acos:If
+  - acos:arg
+  - acos:Assign
+  - acos:Call
+  - acos:Eq
+  - acos:NotEq
+  - acos:ClassDef
+  - acos:ImportFrom
+  - acos:Return
+  - unspecified:arg
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Constant
+  - unspecified:Return
+  - unspecified:ClassDef
+  - unspecified:Eq
+  - unspecified:FunctionDef
+  - unspecified:Attribute
+  - unspecified:ImportFrom
+  - unspecified:If
+  - unspecified:NotEq
+  - unspecified:alias
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    2
+    4
+    8
+    6
+  status: pass
+elements: []
+includes:
+- binary_tree.py

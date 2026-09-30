@@ -1,0 +1,192 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jinheritance6_en
+source: Tester.java
+title: Inheritance 6
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:InheritanceBasedPolymorphism
+  - expert:IfStatement~ObjectMethodInvocation
+  - expert:IfStatement~ObjectEquality
+  - expert:AndExpression~ObjectMethodInvocation
+  - expert:OverridingEquals~SuperclassSubclassConversion
+  - expert:OverridingEquals~SuperclassMethodCall
+  - expert:IfStatement
+  - expert:ActualMethodParameter
+  - expert:AddExpression
+  - expert:AndExpression
+  - expert:BooleanDataType
+  - expert:ClassConstantInitializationStatement
+  - expert:ClassDefinition
+  - expert:ClassField
+  - expert:ConstructorCall
+  - expert:ConstructorDefinition
+  - expert:DivideExpression
+  - expert:DoubleDataType
+  - expert:EqualExpression
+  - expert:ExpressionStatement
+  - expert:ExtendsSpecification
+  - expert:FinalModifier
+  - expert:FormalMethodParameter
+  - expert:IfElseStatement
+  - expert:Inheritance
+  - expert:InstanceField
+  - expert:InstanceFieldDefinitionStatement
+  - expert:InstanceFieldInvocation
+  - expert:IntDataType
+  - expert:java.lang.Object
+  - expert:LessExpression
+  - expert:MethodDefinition
+  - expert:MethodOverriding
+  - expert:MultiplyExpression
+  - expert:ObjectCreationStatement
+  - expert:ObjectEquality
+  - expert:ObjectMethodInvocation
+  - expert:ObjectVariable
+  - expert:OverridingEquals
+  - expert:OverridingToString
+  - expert:PolymorphicObjectCreationStatement
+  - expert:PrivateAccessSpecifier
+  - expert:PublicAccessSpecifier
+  - expert:ReturnStatement
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StaticModifier
+  - expert:StringAddition
+  - expert:StringDataType
+  - expert:StringLiteral
+  - expert:SuperclassConstructorCall
+  - expert:SuperclassMethodCall
+  - expert:SuperclassSubclassConversion
+  - expert:SuperReference
+  - expert:ThisReference
+  - expert:VariableInitializationStatement
+  - webex:ClassConstantInitializationStatement
+  - webex:MultiplyExpression
+  - webex:DivideExpression
+  - webex:ActualMethodParameter
+  - webex:ObjectMethodInvocation
+  - webex:IfElseStatement
+  - webex:PublicAccessSpecifier
+  - webex:ObjectVariable
+  - webex:StaticModifier
+  - webex:ConstructorCall
+  - webex:LessExpression
+  - webex:PrivateAccessSpecifier
+  - webex:SimpleAssignmentExpression
+  - webex:DoubleDataType
+  - webex:StringLiteral
+  - webex:InstanceFieldDefinitionStatement
+  - webex:FormalMethodParameter
+  - webex:FinalModifier
+  - webex:SuperReference
+  - webex:SuperclassMethodCall
+  - webex:ObjectEquality
+  - webex:MethodDefinition
+  - webex:VariableInitializationStatement
+  - webex:ClassDefinition
+  - webex:ExpressionStatement
+  - webex:BooleanDataType
+  - webex:java.lang.Object
+  - webex:PolymorphicObjectCreationStatement
+  - webex:SuperclassConstructorCall
+  - webex:EqualExpression
+  - webex:ConstructorDefinition
+  - webex:SuperclassSubclassConversion
+  - webex:ObjectCreationStatement
+  - webex:AddExpression
+  - webex:AndExpression
+  - webex:ClassField
+  - webex:OverridingEquals
+  - webex:InstanceFieldInvocation
+  - webex:StringAddition
+  - webex:SimpleVariable
+  - webex:ThisReference
+  - webex:Inheritance
+  - webex:MethodOverriding
+  - webex:StringDataType
+  - webex:OverridingToString
+  - webex:IntDataType
+  - webex:ReturnStatement
+  - webex:ExtendsSpecification
+  - webex:InstanceField
+  - unspecified:Inheritance
+  - java_ontology:ClassConstantInitializationStatement
+  - java_ontology:DivideExpression
+  - java_ontology:MultiplyExpression
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:IfElseStatement
+  - java_ontology:PublicAccessSpecifier
+  - java_ontology:VoidDataType
+  - java_ontology:ObjectVariable
+  - java_ontology:StaticModifier
+  - java_ontology:ConstructorCall
+  - java_ontology:LessExpression
+  - java_ontology:PrivateAccessSpecifier
+  - java_ontology:DoubleDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringLiteral
+  - java_ontology:FormalMethodParameter
+  - java_ontology:InstanceFieldDefinitionStatement
+  - java_ontology:FinalModifier
+  - java_ontology:SuperReference
+  - java_ontology:SuperclassMethodCall
+  - java_ontology:ObjectEquality
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:BooleanDataType
+  - java_ontology:java.lang.Object
+  - java_ontology:PolymorphicObjectCreationStatement
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:SuperclassConstructorCall
+  - java_ontology:ConstructorDefinition
+  - java_ontology:EqualExpression
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:AddExpression
+  - java_ontology:SuperclassSubclassConversion
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:AndExpression
+  - java_ontology:ClassField
+  - java_ontology:OverridingEquals
+  - java_ontology:InstanceFieldInvocation
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:StringAddition
+  - java_ontology:MethodOverriding
+  - java_ontology:ThisReference
+  - java_ontology:StringDataType
+  - java_ontology:OverridingToString
+  - java_ontology:IntDataType
+  - java_ontology:ReturnStatement
+  - java_ontology:java.lang.String.equals
+  - java_ontology:ExtendsSpecification
+  - java_ontology:InstanceField
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    122
+  status: pass
+elements: []
+includes:
+- Man.java
+- Animal.java
+- Dog.java

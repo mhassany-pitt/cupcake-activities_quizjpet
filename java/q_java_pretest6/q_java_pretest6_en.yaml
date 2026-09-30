@@ -1,0 +1,46 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_java_pretest6_en
+source: Tester.java
+title: Question 8
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:DoubleDataType
+  - expert:java.util.ArrayList
+  - expert:java.util.ArrayList.add
+  - expert:java.util.ArrayList.remove
+  - expert:ForEachStatement
+  - expert:ObjectCreationStatement
+  - expert:java.lang.System.out.println
+  - expert:ForEachStatement~java.lang.System.out.println
+  - expert:ForEachStatement~java.util.ArrayList
+  - java_ontology:DoubleDataType
+  - java_ontology:ForEachStatement
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:java.util.ArrayList
+  - java_ontology:java.util.ArrayList.add
+  - java_ontology:java.util.ArrayList.remove
+  - java_ontology:ObjectCreationStatement
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    1.1
+    3.3
+  status: pass
+elements: []

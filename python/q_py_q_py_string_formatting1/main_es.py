@@ -1,0 +1,1 @@
+print('%s recibio %5.1f in %s %d' %('Brian', 77, 'CMPUT', 175))

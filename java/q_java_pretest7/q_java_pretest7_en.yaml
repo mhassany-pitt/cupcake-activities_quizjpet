@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_java_pretest7_en
+source: Tester.java
+title: Question 9
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:PolymorphicObjectCreationStatement
+  - expert:java.lang.System.out.println
+  - expert:ObjectMethodInvocation
+  - expert:DivideExpression
+  - expert:IntDataType
+  - expert:GreaterEqualExpression
+  - expert:LessExpression
+  - expert:AndExpression
+  - expert:AbstractMethodDefinition
+  - expert:ImplementsSpecification
+  - expert:InterfaceBasedPolymorphism
+  - expert:InterfaceDefinition
+  - expert:MethodImplementation
+  - expert:ReturnStatement
+  - expert:InstanceFieldInvocation
+  - expert:ConstructorDefinition
+  - expert:java.lang.System.out.println~ObjectMethodInvocation
+  - expert:DivideExpression~IntDataType
+  - java_ontology:AbstractMethodDefinition
+  - java_ontology:AndExpression
+  - java_ontology:ConstructorDefinition
+  - java_ontology:DivideExpression
+  - java_ontology:GreaterEqualExpression
+  - java_ontology:ImplementsSpecification
+  - java_ontology:InstanceFieldInvocation
+  - java_ontology:IntDataType
+  - java_ontology:InterfaceBasedPolymorphism
+  - java_ontology:InterfaceDefinition
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:LessExpression
+  - java_ontology:MethodImplementation
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:PolymorphicObjectCreationStatement
+  - java_ontology:ReturnStatement
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    false
+  status: pass
+elements: []
+includes:
+- Rectangle.java
+- Shape.java

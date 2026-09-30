@@ -1,0 +1,38 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_pandas_select_1_en
+source: main.py
+title: Pandas Data Selection 1
+description: What is the output?
+authors:
+- first: Arun
+  last: Narayanan
+  email: arun.narayanan@pitt.edu
+  affiliation: University of Pittsburgh
+- first: Rully
+  last: Hendrawan
+  email: rully@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics: []
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |2
+      File "/private/var/folders/q2/cydqd4c50zl_wl5sq4bjbz9h0000gn/T/tmpt3fjbzip/main.py", line 9
+        for _, row for filtered_rows.iterrows():
+                   ^^^
+    SyntaxError: invalid syntax
+  status: pass
+elements: []
+includes:
+- people.csv

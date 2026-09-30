@@ -1,0 +1,13 @@
+public class Tester {
+  public static void main(String[] args) {
+
+	int j = 0;
+        int result = 0;
+        do{
+           j++;
+	   result += 8;
+        }while (j < 8);
+
+      System.out.println(result);
+    }
+}

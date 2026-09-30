@@ -1,0 +1,66 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jstringequal_en
+source: Tester.java
+title: String (equals)
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:java.lang.String.equalsIgnoreCase
+  - expert:java.lang.System.out.println
+  - expert:java.lang.String.charAt~StringAddition
+  - expert:ImplicitTypeCasting
+  - expert:BooleanDataType~java.lang.System.out.println
+  - expert:BooleanDataType
+  - expert:StringInitializationStatement
+  - expert:ObjectMethodInvocation
+  - expert:StringAddition
+  - expert:ObjectCreationStatement
+  - expert:SimpleAssignmentExpression
+  - expert:StringDataType
+  - expert:StringLiteral
+  - expert:StringVariable
+  - expert:java.lang.String.charAt
+  - expert:java.lang.String.equals
+  - java_ontology:ActualMethodParameter
+  - java_ontology:StringCreationStatement
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:VoidDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:StringLiteral
+  - java_ontology:FormalMethodParameter
+  - java_ontology:MethodDefinition
+  - java_ontology:ClassDefinition
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:StringVariable
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:java.lang.String.equalsIgnoreCase
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:StringAddition
+  - java_ontology:StringConstructorCall
+  - java_ontology:java.lang.String.charAt
+  - java_ontology:StringDataType
+  - java_ontology:java.lang.String.equals
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    true
+    true
+  status: pass
+elements: []

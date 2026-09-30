@@ -1,0 +1,58 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_output3_es
+source: main_es.py
+title: q_py_output3_es
+description: What is the output?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_expert:Multiplication
+  - alice_expert:Addition
+  - alice_expert:AssigningValueVariable
+  - alice_expert:FormattingString
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:Printing
+  - alice_expert:NestedFunctionCall
+  - parser:Int
+  - parser:Attribute
+  - parser:Add
+  - parser:Call
+  - parser:Str
+  - parser:Assign
+  - parser:Mult
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Int
+  - unspecified:Attribute
+  - unspecified:Add
+  - unspecified:Mult
+  - unspecified:Str
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:FormattingString
+  - rafaella_alice:Multiplication
+  - rafaella_alice:NestedFunctionCall
+  - rafaella_alice:Printing
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    -8, -15
+    -24, -15
+  status: pass
+elements: []

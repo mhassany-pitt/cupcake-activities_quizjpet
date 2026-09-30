@@ -1,0 +1,68 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: es
+id: pct_q_py_interest_if_else1_es
+source: main_es.py
+title: q_py_interest_if_else1_es
+description: What is the output?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - alice_llm:-
+  - alice_llm:Addition
+  - alice_llm:IfChecking
+  - alice_llm:ChangingValueVariable
+  - alice_llm:CallingSimpleFunction
+  - alice_llm:LogicalExpression
+  - alice_llm:ComparisonExpression
+  - alice_llm:IntegerLiteral
+  - alice_llm:FloatLiteral
+  - alice_llm_mod:Multiplication
+  - alice_llm_mod:Division
+  - alice_llm_mod:Printing
+  - parser:Int
+  - parser:Add
+  - parser:Lt
+  - parser:Call
+  - parser:Div
+  - parser:Assign
+  - parser:Mult
+  - parser:If
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Int
+  - unspecified:Div
+  - unspecified:Lt
+  - unspecified:Add
+  - unspecified:Mult
+  - unspecified:If
+  - jordan_alice:ComparisonExpression
+  - jordan_alice:FloatLiteral
+  - jordan_alice:IntegerLiteral
+  - jordan_alice:LogicalExpression
+  - rafaella_alice:Addition
+  - rafaella_alice:CallingSimpleFunction
+  - rafaella_alice:ChangingValueVariable
+  - rafaella_alice:IfChecking
+  - rafaella_alice:Multiplication
+  - rafaella_alice:Printing
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    320.0
+    4320.0
+  status: pass
+elements: []

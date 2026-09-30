@@ -1,0 +1,45 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_java_pretest3_en
+source: Tester.java
+title: Question 3
+description: What is the output?
+authors:
+- first: Roya
+  last: Hosseini
+  email: moh70@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:ObjectCreationStatement
+  - expert:ObjectMethodInvocation
+  - expert:java.lang.System.out.println
+  - expert:LessExpression
+  - expert:InstanceField
+  - expert:ConstructorDefinition
+  - expert:java.lang.System.out.println~ObjectMethodInvocation
+  - java_ontology:ConstructorDefinition
+  - java_ontology:InstanceField
+  - java_ontology:java.lang.System.out.println
+  - java_ontology:LessExpression
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:ObjectMethodInvocation
+runtime:
+  language: java
+  version: '17'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    60.0
+    60.0
+  status: pass
+elements: []
+includes:
+- Rectangle.java

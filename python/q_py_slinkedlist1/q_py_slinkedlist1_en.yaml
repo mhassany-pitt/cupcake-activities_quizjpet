@@ -1,0 +1,71 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_slinkedlist1_en
+source: main.py
+title: Single linked list
+description: What is the output?
+authors:
+- first: Michelle
+  last: Wang
+  email: michelle.wang@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:ClassDef
+  - acos:NotEq
+  - acos:Assign
+  - acos:While
+  - acos:And
+  - acos:Return
+  - acos:Sub
+  - acos:AugAssign
+  - acos:If
+  - acos:Not
+  - acos:Mod
+  - acos:Attribute
+  - acos:Call
+  - acos:arg
+  - acos:Constant
+  - acos:Gt
+  - acos:Add
+  - acos:Eq
+  - acos:USub
+  - acos:FunctionDef
+  - unspecified:Call
+  - unspecified:Return
+  - unspecified:And
+  - unspecified:Attribute
+  - unspecified:AugAssign
+  - unspecified:Mod
+  - unspecified:Gt
+  - unspecified:arg
+  - unspecified:Constant
+  - unspecified:Not
+  - unspecified:Add
+  - unspecified:While
+  - unspecified:If
+  - unspecified:USub
+  - unspecified:Sub
+  - unspecified:Assign
+  - unspecified:ClassDef
+  - unspecified:Eq
+  - unspecified:FunctionDef
+  - unspecified:NotEq
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    Vancouver
+    3
+    [Big Sur,Boston,Napa Valley,Edmonton]
+  status: pass
+elements: []

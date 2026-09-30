@@ -1,0 +1,80 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_exception_assertion_en
+source: main_en.py
+title: Exceptions Assertion
+description: What is the output?
+authors:
+- first: Michelle
+  last: Wang
+  email: michelle.wang@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:arg
+  - acos:List
+  - acos:Add
+  - acos:Attribute
+  - acos:For
+  - acos:Try
+  - acos:Constant
+  - acos:Call
+  - acos:ExceptHandler
+  - acos:FunctionDef
+  - acos:Assign
+  - acos:AugAssign
+  - acos:Assert
+  - alice_expert:SingleForLoopIteration
+  - alice_expert:AssertChecking
+  - alice_expert:AddingListElementWithAppend
+  - alice_expert:AssigningValueVariable
+  - alice_expert:ChangingValueVariable
+  - alice_expert:HandlingSpecificError
+  - alice_expert:Printing
+  - alice_expert:DefiningSimpleFunction
+  - alice_expert:CreatingList
+  - alice_expert:ForLoopWith
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:CallingSimpleFunction
+  - unspecified:arg
+  - unspecified:ExceptHandler
+  - unspecified:For
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Constant
+  - unspecified:List
+  - unspecified:Assert
+  - unspecified:Try
+  - unspecified:FunctionDef
+  - unspecified:Attribute
+  - unspecified:Add
+  - unspecified:AugAssign
+  - rafaella_alice:AddingListElementWithAppend
+  - rafaella_alice:AssertChecking
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:CallingSimpleFunction
+  - rafaella_alice:ChangingValueVariable
+  - rafaella_alice:CreatingList
+  - rafaella_alice:DefiningSimpleFunction
+  - rafaella_alice:ForLoopWith
+  - rafaella_alice:HandlingSpecificError
+  - rafaella_alice:Printing
+  - rafaella_alice:SingleForLoopIteration
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    6
+    ['six', '12', 'eleven', '1', 'nine', '1']
+  status: pass
+elements: []

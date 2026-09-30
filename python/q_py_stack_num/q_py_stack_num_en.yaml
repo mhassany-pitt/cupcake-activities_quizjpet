@@ -1,0 +1,52 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_stack_num_en
+source: main.py
+title: Stack Num
+description: What is the output?
+authors:
+- first: Michelle
+  last: Wang
+  email: michelle.wang@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:Attribute
+  - acos:arg
+  - acos:FunctionDef
+  - acos:Constant
+  - acos:ClassDef
+  - acos:Call
+  - acos:Index
+  - acos:Return
+  - acos:List
+  - acos:Assign
+  - unspecified:arg
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:Constant
+  - unspecified:List
+  - unspecified:Return
+  - unspecified:ClassDef
+  - unspecified:FunctionDef
+  - unspecified:Attribute
+  - unspecified:Index
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the output?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    [5, 1, 1]
+    5
+    [1, 1]
+    None
+  status: pass
+elements: []

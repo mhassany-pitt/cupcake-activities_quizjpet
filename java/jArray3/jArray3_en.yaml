@@ -1,0 +1,118 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_jarray3_en
+source: Tester.java
+title: Arrays 3
+description: What is the final value of result ?
+authors:
+- first: Sharon
+  last: Hsiao
+  email: sharon.hsiao@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - expert:IntDataType
+  - expert:LessExpression
+  - expert:MethodDefinition
+  - expert:MultiplyExpression
+  - expert:ObjectCreationStatement
+  - expert:ObjectMethodInvocation
+  - expert:ObjectVariable
+  - expert:PostIncrementExpression
+  - expert:PrivateAccessSpecifier
+  - expert:PublicAccessSpecifier
+  - expert:ReturnStatement
+  - expert:SimpleAssignmentExpression
+  - expert:SimpleVariable
+  - expert:StaticModifier
+  - expert:SubtractExpression
+  - expert:VariableInitializationStatement
+  - expert:VoidDataType
+  - expert:ArrayDataType
+  - expert:Constant
+  - expert:ClassField~Constant
+  - expert:ForStatement~LessExpression
+  - expert:ArrayLength~ForStatement
+  - expert:ForStatement~PostIncrementExpression
+  - expert:ArrayElement~ForStatement
+  - expert:ForStatement~ObjectMethodInvocation
+  - expert:ClassField~InstanceField
+  - expert:AddExpression~MultiplyExpression
+  - expert:ArrayElement~ObjectMethodInvocation
+  - expert:ActualMethodParameter
+  - expert:AddExpression
+  - expert:ArrayElement
+  - expert:ArrayInitializationStatement
+  - expert:ArrayInitializer
+  - expert:ArrayLength
+  - expert:Arrays
+  - expert:ArrayVariable
+  - expert:ClassConstantInitializationStatement
+  - expert:ClassDefinition
+  - expert:ClassField
+  - expert:ConstructorCall
+  - expert:ConstructorDefinition
+  - expert:DoubleDataType
+  - expert:ExpressionStatement
+  - expert:FinalModifier
+  - expert:FormalMethodParameter
+  - expert:ForStatement
+  - expert:InstanceField
+  - unspecified:Arrays
+  - java_ontology:ClassConstantInitializationStatement
+  - java_ontology:MultiplyExpression
+  - java_ontology:ActualMethodParameter
+  - java_ontology:ForStatement
+  - java_ontology:ObjectMethodInvocation
+  - java_ontology:ArrayDataType
+  - java_ontology:PublicAccessSpecifier
+  - java_ontology:VoidDataType
+  - java_ontology:ObjectVariable
+  - java_ontology:StaticModifier
+  - java_ontology:ConstructorCall
+  - java_ontology:LessExpression
+  - java_ontology:SubtractExpression
+  - java_ontology:ArrayInitializationStatement
+  - java_ontology:PrivateAccessSpecifier
+  - java_ontology:DoubleDataType
+  - java_ontology:SimpleAssignmentExpression
+  - java_ontology:FormalMethodParameter
+  - java_ontology:FinalModifier
+  - java_ontology:ArrayElement
+  - java_ontology:PostIncrementExpression
+  - java_ontology:MethodDefinition
+  - java_ontology:VariableInitializationStatement
+  - java_ontology:ClassDefinition
+  - java_ontology:ExpressionStatement
+  - java_ontology:StaticMethodSpecifier
+  - java_ontology:ConstructorDefinition
+  - java_ontology:ArrayInitializer
+  - java_ontology:ObjectCreationStatement
+  - java_ontology:AddExpression
+  - java_ontology:PublicClassSpecifier
+  - java_ontology:ClassField
+  - java_ontology:PublicMethodSpecifier
+  - java_ontology:SimpleVariable
+  - java_ontology:ArrayLength
+  - java_ontology:IntDataType
+  - java_ontology:ArrayVariable
+  - java_ontology:ReturnStatement
+  - java_ontology:InstanceField
+runtime:
+  language: java
+  version: '17'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    29.0
+  status: pass
+elements: []
+includes:
+- CashRegister.java

@@ -1,0 +1,75 @@
+$schema: https://adapt2.sis.pitt.edu/cupcake/schemas/parameterized-code-tracing/0.1.0
+license: MIT
+locale: en
+id: pct_q_py_2d_arrays4_en
+source: main_en.py
+title: Two-dimensional List 4
+description: What is the final value of result ?
+authors:
+- first: Jordan
+  last: Barria-Pineda
+  email: jordan.barria@pitt.edu
+  affiliation: University of Pittsburgh
+pedagogy:
+  activity: parameterized-code-tracing
+  difficulty: novice
+  prereq_topics: []
+  topics:
+  - acos:For
+  - acos:Index
+  - acos:Add
+  - acos:AugAssign
+  - acos:Call
+  - acos:Assign
+  - acos:Constant
+  - acos:List
+  - acos:If
+  - acos:Gt
+  - alice_expert:Indexing2DArray
+  - alice_expert:FindingLength
+  - alice_expert:AssigningValueVariable
+  - alice_expert:IfCheckingInForLoop
+  - alice_expert:NestedForLoopIteration
+  - alice_expert:Create2DArray
+  - alice_expert:Addition
+  - alice_expert:CallingLibraryFunction
+  - alice_expert:BooleanEvaluating
+  - alice_expert:ChangingValueVariable
+  - alice_expert:IndexingList
+  - alice_expert:ForLoopWithListIndexing
+  - alice_expert:ForLoopWith
+  - unspecified:Gt
+  - unspecified:For
+  - unspecified:Constant
+  - unspecified:Call
+  - unspecified:Assign
+  - unspecified:List
+  - unspecified:Add
+  - unspecified:AugAssign
+  - unspecified:If
+  - unspecified:Index
+  - rafaella_alice:Addition
+  - rafaella_alice:AssigningValueVariable
+  - rafaella_alice:BooleanEvaluating
+  - rafaella_alice:CallingLibraryFunction
+  - rafaella_alice:ChangingValueVariable
+  - rafaella_alice:Create2DArray
+  - rafaella_alice:FindingLength
+  - rafaella_alice:ForLoopWith
+  - rafaella_alice:ForLoopWithListIndexing
+  - rafaella_alice:IfCheckingInForLoop
+  - rafaella_alice:Indexing2DArray
+  - rafaella_alice:IndexingList
+  - rafaella_alice:NestedForLoopIteration
+runtime:
+  language: python
+  version: '3.10'
+statement: What is the final value of result ?
+testcases:
+- title: Standard Trace
+  visible: true
+  stdin: []
+  stdout: |
+    5
+  status: pass
+elements: []
