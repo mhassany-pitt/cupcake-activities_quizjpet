@@ -181,7 +181,6 @@ testcases:
     Animal[age=1000][legs=14]
     Dog[age=14][legs=4]
     Man[age=70][legs=2][weight=100.0]
-  status: pass
 elements: []
 includes:
 - Man.java

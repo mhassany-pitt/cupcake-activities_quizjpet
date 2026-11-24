@@ -52,7 +52,6 @@ testcases:
       File "/Users/jone30rw/Documents/Projects/thesis/.venv/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
         raise KeyError(key) from err
     KeyError: 'index'
-  status: pass
 elements: []
 includes:
 - people.csv

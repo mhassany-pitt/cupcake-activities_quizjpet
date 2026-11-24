@@ -51,5 +51,4 @@ testcases:
   stdin: []
   stdout: |
     Obtuvo un valor par
-  status: pass
 elements: []

@@ -33,5 +33,4 @@ testcases:
   stdin: []
   stdout: |
     <class 'float'>
-  status: pass
 elements: []

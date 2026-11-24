@@ -109,5 +109,4 @@ testcases:
   stdout: |
     5
     number2
-  status: pass
 elements: []

@@ -197,7 +197,6 @@ testcases:
   stdin: []
   stdout: |
     bow-wow
-  status: pass
 elements: []
 includes:
 - Man.java

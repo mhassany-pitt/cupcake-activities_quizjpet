@@ -80,7 +80,6 @@ testcases:
   stdin: []
   stdout: |
     28
-  status: pass
 elements: []
 includes:
 - CashRegister.java

@@ -55,5 +55,4 @@ testcases:
   stdin: []
   stdout: |
     Obtuvo un valor grande par
-  status: pass
 elements: []

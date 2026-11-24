@@ -29,7 +29,6 @@ testcases:
   stdin: []
   stdout: |
     27.0
-  status: pass
 elements: []
 includes:
 - people.csv

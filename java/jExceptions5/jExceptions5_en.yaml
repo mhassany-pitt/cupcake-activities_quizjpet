@@ -97,7 +97,6 @@ testcases:
   stdin: []
   stdout: |
     Null pointer
-  status: pass
 elements: []
 includes:
 - Person.java

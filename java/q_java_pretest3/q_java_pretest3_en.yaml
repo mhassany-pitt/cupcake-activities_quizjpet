@@ -39,7 +39,6 @@ testcases:
   stdout: |
     60.0
     60.0
-  status: pass
 elements: []
 includes:
 - Rectangle.java

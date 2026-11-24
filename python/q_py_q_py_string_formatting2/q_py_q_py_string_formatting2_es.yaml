@@ -25,5 +25,4 @@ testcases:
   stdin: []
   stdout: |
     Usted recibio  95.0 por ciento!
-  status: pass
 elements: []

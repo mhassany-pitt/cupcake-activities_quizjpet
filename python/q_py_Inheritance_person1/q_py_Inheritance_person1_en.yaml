@@ -42,5 +42,4 @@ testcases:
   stdout: |
     Mike Olsen
     32
-  status: pass
 elements: []

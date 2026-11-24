@@ -183,7 +183,6 @@ testcases:
     10
     50
     218.0
-  status: pass
 elements: []
 includes:
 - Man.java

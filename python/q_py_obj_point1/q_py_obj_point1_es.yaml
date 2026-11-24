@@ -82,5 +82,4 @@ testcases:
         print(sobre(p1, p2))
               ^^^^^
     NameError: name 'sobre' is not defined
-  status: pass
 elements: []

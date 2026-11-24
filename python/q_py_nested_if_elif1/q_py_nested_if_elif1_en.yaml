@@ -55,5 +55,4 @@ testcases:
   stdin: []
   stdout: |
     Got a small even value
-  status: pass
 elements: []

@@ -68,5 +68,4 @@ testcases:
   stdout: |
     3
     0
-  status: pass
 elements: []

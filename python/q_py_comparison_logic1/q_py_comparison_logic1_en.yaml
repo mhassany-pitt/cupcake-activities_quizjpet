@@ -44,5 +44,4 @@ testcases:
   stdout: |
     True
     True
-  status: pass
 elements: []

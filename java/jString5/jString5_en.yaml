@@ -65,5 +65,4 @@ testcases:
   visible: true
   stdin: []
   stdout: My Lucky Number is 8
-  status: pass
 elements: []

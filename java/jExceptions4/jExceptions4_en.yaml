@@ -93,7 +93,6 @@ testcases:
   stdin: []
   stdout: |
     age is negative
-  status: pass
 elements: []
 includes:
 - Person.java

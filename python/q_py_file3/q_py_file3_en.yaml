@@ -42,7 +42,6 @@ testcases:
   stdout: |
     file has 6 lines
     file has 20 words
-  status: pass
 elements: []
 includes:
 - file2.txt

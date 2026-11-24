@@ -25,7 +25,6 @@ testcases:
   stdin: []
   stdout: |
     [New Balance, Saucony, Salomon, 39]
-  status: pass
 elements: []
 includes:
 - Node.java

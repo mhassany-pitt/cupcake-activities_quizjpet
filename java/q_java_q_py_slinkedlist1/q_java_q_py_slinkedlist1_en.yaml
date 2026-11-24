@@ -27,7 +27,6 @@ testcases:
     Seattle
     3
     [Miami,Chicago,Austin,Denver]
-  status: pass
 elements: []
 includes:
 - SLinkedListNode.java

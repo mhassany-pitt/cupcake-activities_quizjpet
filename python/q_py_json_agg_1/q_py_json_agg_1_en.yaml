@@ -30,5 +30,4 @@ testcases:
   stdout: |
     90
     30.0
-  status: pass
 elements: []

@@ -25,5 +25,4 @@ testcases:
   stdin: []
   stdout: |
     Brian received  70.0 in CMPUT 175
-  status: pass
 elements: []

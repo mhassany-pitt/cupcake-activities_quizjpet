@@ -26,7 +26,6 @@ testcases:
   stdout: |
     67.0
     580.75
-  status: pass
 elements: []
 includes:
 - Account.java

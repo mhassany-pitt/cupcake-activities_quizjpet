@@ -59,5 +59,4 @@ testcases:
         if  (no encontrado):
              ^^^^^^^^^^^^^
     SyntaxError: invalid syntax. Perhaps you forgot a comma?
-  status: pass
 elements: []

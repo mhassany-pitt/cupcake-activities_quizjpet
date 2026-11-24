@@ -46,7 +46,6 @@ testcases:
         f.write(\"#Revisa mi eleccion!\\n\")
                  ^
     SyntaxError: unexpected character after line continuation character
-  status: pass
 elements: []
 includes:
 - test.txt

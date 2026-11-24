@@ -60,5 +60,4 @@ testcases:
   visible: true
   stdin: []
   stdout: '100.0'
-  status: pass
 elements: []

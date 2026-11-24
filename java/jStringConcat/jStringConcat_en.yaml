@@ -41,5 +41,4 @@ testcases:
   stdin: []
   stdout: |
     Alice and Bob were 30 years old.
-  status: pass
 elements: []

@@ -28,5 +28,4 @@ testcases:
     False
     Se ha llamado a '__gt__ de B'
     True
-  status: pass
 elements: []

@@ -32,7 +32,6 @@ testcases:
     Gluten-Free 29.5
     Vegan 34.0
     Vegetarian 32.5
-  status: pass
 elements: []
 includes:
 - people.csv

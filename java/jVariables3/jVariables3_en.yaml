@@ -45,5 +45,4 @@ testcases:
   visible: true
   stdin: []
   stdout: '7'
-  status: pass
 elements: []

@@ -61,5 +61,4 @@ testcases:
   visible: true
   stdin: []
   stdout: February
-  status: pass
 elements: []

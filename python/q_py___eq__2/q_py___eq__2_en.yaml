@@ -27,5 +27,4 @@ testcases:
     A __eq__ called
     B __eq__ called
     True
-  status: pass
 elements: []

@@ -26,5 +26,4 @@ testcases:
   stdout: |-
     456
     012
-  status: pass
 elements: []

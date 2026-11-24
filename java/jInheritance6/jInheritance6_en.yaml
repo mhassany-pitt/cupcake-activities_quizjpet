@@ -184,7 +184,6 @@ testcases:
   stdin: []
   stdout: |
     122
-  status: pass
 elements: []
 includes:
 - Man.java

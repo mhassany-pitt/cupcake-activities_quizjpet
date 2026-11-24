@@ -43,5 +43,4 @@ testcases:
   stdin: []
   stdout: |
     Arguments:379, 14.38, 50.379
-  status: pass
 elements: []

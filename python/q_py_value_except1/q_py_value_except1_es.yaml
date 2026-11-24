@@ -65,5 +65,4 @@ testcases:
   stdin: []
   stdout: |
     Por favor ingrese un numero!
-  status: pass
 elements: []

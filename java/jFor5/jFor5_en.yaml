@@ -94,7 +94,6 @@ testcases:
   stdin: []
   stdout: |
     110.0
-  status: pass
 elements: []
 includes:
 - Investment.java

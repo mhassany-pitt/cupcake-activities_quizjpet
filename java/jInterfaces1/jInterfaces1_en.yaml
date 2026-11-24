@@ -141,7 +141,6 @@ testcases:
     0
     Honda
     0
-  status: pass
 elements: []
 includes:
 - Car.java

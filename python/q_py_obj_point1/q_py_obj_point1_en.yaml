@@ -82,5 +82,4 @@ testcases:
         print(above(p1, p2))
               ^^^^^
     NameError: name 'above' is not defined
-  status: pass
 elements: []

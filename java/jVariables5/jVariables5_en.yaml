@@ -47,5 +47,4 @@ testcases:
   visible: true
   stdin: []
   stdout: Lucky8
-  status: pass
 elements: []

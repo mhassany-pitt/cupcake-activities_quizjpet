@@ -40,7 +40,6 @@ testcases:
     Blue
     33.0
     30.0
-  status: pass
 elements: []
 includes:
 - Rectangle.java

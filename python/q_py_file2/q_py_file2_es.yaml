@@ -82,7 +82,6 @@ testcases:
   stdout: |
     Linda 97.0
     John 92.0
-  status: pass
 elements: []
 includes:
 - studentscores.txt

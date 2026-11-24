@@ -183,7 +183,6 @@ testcases:
   stdin: []
   stdout: |
     How are you doing, honey?
-  status: pass
 elements: []
 includes:
 - Man.java

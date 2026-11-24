@@ -47,7 +47,6 @@ testcases:
   stdin: []
   stdout: |
     Hoy es
-  status: pass
 elements: []
 includes:
 - texto.txt

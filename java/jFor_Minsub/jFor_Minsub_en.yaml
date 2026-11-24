@@ -24,5 +24,4 @@ testcases:
   visible: true
   stdin: []
   stdout: '0123'
-  status: pass
 elements: []

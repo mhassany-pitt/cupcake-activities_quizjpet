@@ -73,7 +73,6 @@ testcases:
   stdin: []
   stdout: |
     7
-  status: pass
 elements: []
 includes:
 - Point.java

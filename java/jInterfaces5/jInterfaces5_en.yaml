@@ -144,7 +144,6 @@ testcases:
   stdin: []
   stdout: |
     220
-  status: pass
 elements: []
 includes:
 - Car.java

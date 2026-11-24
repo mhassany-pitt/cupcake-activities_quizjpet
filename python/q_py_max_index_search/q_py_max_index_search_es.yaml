@@ -43,5 +43,4 @@ testcases:
         max_indice = indice\n\nresult = max_indice
                             ^
     SyntaxError: unexpected character after line continuation character
-  status: pass
 elements: []

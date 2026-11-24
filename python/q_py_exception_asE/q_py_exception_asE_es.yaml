@@ -54,5 +54,4 @@ testcases:
   stdout: |
     <class 'TypeError'>
     [7, 13, 10, 8, 4, 5]
-  status: pass
 elements: []

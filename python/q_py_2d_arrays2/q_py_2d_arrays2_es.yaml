@@ -65,5 +65,4 @@ testcases:
   stdin: []
   stdout: |
     2
-  status: pass
 elements: []

@@ -25,5 +25,4 @@ testcases:
   stdin: []
   stdout: |
     kgs=3700.9 grams.
-  status: pass
 elements: []

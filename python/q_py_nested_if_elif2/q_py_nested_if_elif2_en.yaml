@@ -61,5 +61,4 @@ testcases:
   stdin: []
   stdout: |
     isosceles triangle
-  status: pass
 elements: []

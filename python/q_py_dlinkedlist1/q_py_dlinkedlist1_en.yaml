@@ -55,5 +55,4 @@ testcases:
   stdin: []
   stdout: |
     [New Balance, Saucony, Salomon, 42]
-  status: pass
 elements: []

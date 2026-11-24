@@ -41,5 +41,4 @@ testcases:
   stdin: []
   stdout: |
     varios precision:  1.57, 1.574
-  status: pass
 elements: []

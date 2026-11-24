@@ -89,5 +89,4 @@ testcases:
   stdout: |
     234
     123
-  status: pass
 elements: []

@@ -119,7 +119,6 @@ testcases:
   stdin: []
   stdout: |
     Second argument is negative: -6
-  status: pass
 elements: []
 includes:
 - SimpleMath.java

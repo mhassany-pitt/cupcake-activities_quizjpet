@@ -63,7 +63,6 @@ testcases:
   stdin: []
   stdout: |
     44.0
-  status: pass
 elements: []
 includes:
 - BankAccountThis.java

@@ -106,5 +106,4 @@ testcases:
   stdout: |
     Sofia
     75
-  status: pass
 elements: []

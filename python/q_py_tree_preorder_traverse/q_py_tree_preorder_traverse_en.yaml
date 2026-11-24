@@ -54,7 +54,6 @@ testcases:
     2
     8
     6
-  status: pass
 elements: []
 includes:
 - binary_tree.py

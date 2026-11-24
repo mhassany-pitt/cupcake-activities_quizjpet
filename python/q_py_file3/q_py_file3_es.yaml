@@ -70,7 +70,6 @@ testcases:
   stdout: |
     El archivo tiene 6 lineas
     El archivo tiene 20 palabras
-  status: pass
 elements: []
 includes:
 - file2.txt

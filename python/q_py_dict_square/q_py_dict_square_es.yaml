@@ -69,5 +69,4 @@ testcases:
   stdin: []
   stdout: |
     {'n': 64}
-  status: pass
 elements: []

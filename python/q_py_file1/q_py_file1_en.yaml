@@ -48,7 +48,6 @@ testcases:
   visible: true
   stdin: []
   stdout: "I \n"
-  status: pass
 elements: []
 includes:
 - text.txt

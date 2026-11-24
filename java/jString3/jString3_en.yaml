@@ -51,5 +51,4 @@ testcases:
   visible: true
   stdin: []
   stdout: Hello3
-  status: pass
 elements: []

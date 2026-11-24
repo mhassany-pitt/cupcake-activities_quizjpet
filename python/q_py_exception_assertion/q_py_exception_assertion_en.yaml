@@ -76,5 +76,4 @@ testcases:
   stdout: |
     6
     ['six', '12', 'eleven', '1', 'nine', '1']
-  status: pass
 elements: []

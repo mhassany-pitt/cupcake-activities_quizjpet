@@ -45,5 +45,4 @@ testcases:
   stdin: []
   stdout: |
     precision:1.7
-  status: pass
 elements: []

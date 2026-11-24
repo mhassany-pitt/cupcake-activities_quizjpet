@@ -32,7 +32,6 @@ testcases:
         for _, row for filtered_rows.iterrows():
                    ^^^
     SyntaxError: invalid syntax
-  status: pass
 elements: []
 includes:
 - people.csv

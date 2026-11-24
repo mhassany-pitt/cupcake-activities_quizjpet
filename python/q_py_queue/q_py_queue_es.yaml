@@ -52,7 +52,6 @@ testcases:
     3
     31
     2
-  status: pass
 elements: []
 includes:
 - cola.py

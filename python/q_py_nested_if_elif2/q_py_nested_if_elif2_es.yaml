@@ -61,5 +61,4 @@ testcases:
   stdin: []
   stdout: |
     triangulo escaleno
-  status: pass
 elements: []

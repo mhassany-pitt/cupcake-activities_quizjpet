@@ -36,5 +36,4 @@ testcases:
   stdin: []
   stdout: |
     Hola Mundo Hola Mundo
-  status: pass
 elements: []

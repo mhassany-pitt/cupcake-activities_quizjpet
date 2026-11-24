@@ -99,7 +99,6 @@ testcases:
   stdin: []
   stdout: |
     600.0
-  status: pass
 elements: []
 includes:
 - BankAccount.java

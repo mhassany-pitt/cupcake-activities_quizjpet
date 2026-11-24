@@ -56,5 +56,4 @@ testcases:
   visible: true
   stdin: []
   stdout: 'false'
-  status: pass
 elements: []

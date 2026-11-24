@@ -119,7 +119,6 @@ testcases:
   stdin: []
   stdout: |
     Second Argument 2is gerater then first -2
-  status: pass
 elements: []
 includes:
 - SimpleMath.java

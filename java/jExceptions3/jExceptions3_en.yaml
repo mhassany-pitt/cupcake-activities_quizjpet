@@ -119,7 +119,6 @@ testcases:
   stdin: []
   stdout: |
     Not interested in 0
-  status: pass
 elements: []
 includes:
 - SimpleMath.java

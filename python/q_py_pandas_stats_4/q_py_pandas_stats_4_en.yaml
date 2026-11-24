@@ -30,7 +30,6 @@ testcases:
   stdout: |
     Alice , Vegetarian
     Bob , All
-  status: pass
 elements: []
 includes:
 - people.csv

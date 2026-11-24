@@ -50,5 +50,4 @@ testcases:
         main() -> main()
                ^^
     SyntaxError: invalid syntax
-  status: pass
 elements: []

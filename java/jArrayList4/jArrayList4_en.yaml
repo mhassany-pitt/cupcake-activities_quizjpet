@@ -103,7 +103,6 @@ testcases:
   stdin: []
   stdout: |
     2
-  status: pass
 elements: []
 includes:
 - BankAccount.java

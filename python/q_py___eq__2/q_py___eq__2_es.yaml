@@ -27,5 +27,4 @@ testcases:
     Se llamo a A __eq__
     Se llamo a B __eq__
     True
-  status: pass
 elements: []

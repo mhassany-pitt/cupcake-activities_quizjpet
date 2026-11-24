@@ -83,5 +83,4 @@ testcases:
   stdin: []
   stdout: |
     403
-  status: pass
 elements: []
