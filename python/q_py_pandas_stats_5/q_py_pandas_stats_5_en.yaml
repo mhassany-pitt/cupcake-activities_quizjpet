@@ -29,7 +29,7 @@ testcases:
   stdin: []
   stdout: |
     Traceback (most recent call last):
-      File "/Users/jone30rw/Documents/Projects/thesis/.venv/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+      File "/usr/local/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
         return self._engine.get_loc(casted_key)
                ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
       File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
@@ -44,12 +44,12 @@ testcases:
       File "/private/var/folders/q2/cydqd4c50zl_wl5sq4bjbz9h0000gn/T/tmp8cv0zmpz/main.py", line 7, in <module>
         print(row["index"],",",row["age"])
               ~~~^^^^^^^^^
-      File "/Users/jone30rw/Documents/Projects/thesis/.venv/lib/python3.14/site-packages/pandas/core/series.py", line 1133, in __getitem__
+      File "/usr/local/lib/python3.14/site-packages/pandas/core/series.py", line 1133, in __getitem__
         return self._get_value(key)
                ~~~~~~~~~~~~~~~^^^^^
-      File "/Users/jone30rw/Documents/Projects/thesis/.venv/lib/python3.14/site-packages/pandas/core/series.py", line 1249, in _get_value
+      File "/usr/local/lib/python3.14/site-packages/pandas/core/series.py", line 1249, in _get_value
         loc = self.index.get_loc(label)
-      File "/Users/jone30rw/Documents/Projects/thesis/.venv/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+      File "/usr/local/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
         raise KeyError(key) from err
     KeyError: 'index'
 elements: []
